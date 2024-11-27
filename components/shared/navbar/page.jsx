@@ -8,32 +8,32 @@ import { FaViber } from "react-icons/fa";
 const Navbar = () => {
   return (
     <header className="bg-black bg-opacity-60 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
-      <nav className="lg:hidden px-[7px] py-3 z-100 ">
+      <nav className="lg:hidden px-[5px] py-3 z-100 ">
         <div className="flex justify-between">
           <a
             href="tel:+381691971111"
-            className="flex gap-1 items-center bg-white px-1 h-[35px] rounded-full"
+            className="flex  items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
           >
             {" "}
-            <FcPhoneAndroid className="w-9 h-8" />
-            <span className="text-black font-bold text-[16px]">
+            <FcPhoneAndroid className="w-7 h-8" />
+            <span className="text-black font-bold text-[15px]">
               069/1971111
             </span>
           </a>
           <a
             href="tel:+38119711"
-            className="flex gap-1 items-center bg-white px-1 h-[35px] rounded-full"
+            className="flex  items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
           >
             <FaPhoneAlt className=" w-7 h-6  text-cool-green" />
-            <span className="text-black font-bold text-[16px]">19711</span>
+            <span className="text-black font-bold text-[15px] ">19711</span>
           </a>
           <a
             href="viber://contact?number=%2B381659719711"
-            className="flex gap-1 items-center bg-white px-1 h-[35px] rounded-full"
+            className="flex gap-1 items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
           >
             {" "}
             <FaViber className="bg-purple-600 rounded-full w-8 h-8 p-[4px] text-white" />
-            <span className="text-black font-bold text-[16px]">
+            <span className="text-black font-bold text-[15px]  ">
               065/9719711
             </span>
           </a>
