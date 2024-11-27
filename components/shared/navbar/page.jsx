@@ -12,28 +12,28 @@ const Navbar = () => {
         <div className="flex justify-between">
           <a
             href="tel:+381691971111"
-            className="flex  items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
+            className="flex items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
           >
             {" "}
-            <FcPhoneAndroid className="w-7 h-8" />
-            <span className="text-black font-bold text-[15px]">
+            <FcPhoneAndroid className="w-6 h-8" />
+            <span className="text-black font-bold text-[16px]">
               069/1971111
             </span>
           </a>
           <a
             href="tel:+38119711"
-            className="flex  items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
+            className="flex gap-[2px] items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
           >
-            <FaPhoneAlt className=" w-7 h-6  text-cool-green" />
-            <span className="text-black font-bold text-[15px] ">19711</span>
+            <FaPhoneAlt className=" w-5 h-6  text-cool-green" />
+            <span className="text-black font-bold text-[16px] ">19711</span>
           </a>
           <a
             href="viber://contact?number=%2B381659719711"
             className="flex gap-1 items-center bg-white px-1 h-[35px] rounded-full tracking-tight"
           >
             {" "}
-            <FaViber className="bg-purple-600 rounded-full w-8 h-8 p-[4px] text-white" />
-            <span className="text-black font-bold text-[15px]  ">
+            <FaViber className="bg-purple-600 rounded-full w-6 h-6 p-[3px] text-white" />
+            <span className="text-black font-bold text-[16px]  ">
               065/9719711
             </span>
           </a>
