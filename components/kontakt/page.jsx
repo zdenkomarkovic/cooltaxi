@@ -9,11 +9,11 @@ const Kontakt = () => {
     <>
       <div id="kontakt" className="bg-black pb-[50px]">
         <div className=" container text-center px-[8px] lg:px-[50px]">
-          <h2 className="text-[40px] lg:text-[100px] text-white py-[50px]">
+          <h2 className="flex flex-col text-[50px] lg:text-[100px] text-white  leading-none py-[30px]">
             <span className="text-cool-green font-bold">Cool </span>Taksi Niš
           </h2>
           <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between">
-            <div className=" flex flex-col lg:gap-[3px] text-[20px] lg:text-[30px] ">
+            <div className=" flex flex-col gap-[4px] text-[22px] lg:text-[30px] ">
               <a
                 href="viber://contact?number=%2B381659719711"
                 className="flex gap-6 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px]"
