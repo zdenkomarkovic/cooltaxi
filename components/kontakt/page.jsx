@@ -68,7 +68,7 @@ const Kontakt = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full lg:w-[750px]"
+                className="w-full lg:w-[750px] rounded-lg"
               ></iframe>
             </div>
           </div>
