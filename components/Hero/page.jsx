@@ -8,7 +8,7 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10">
         <div className="">
-          <h1 className="flex flex-col lg:flex-row lg:gap-8 w-full text-[60px] lg:text-[110px] text-right justify-end pr-[40px] pt-[200px] lg:p-[150px] leading-snug text-white">
+          <h1 className="flex flex-col lg:flex-row lg:gap-8 w-full text-[60px] lg:text-[110px] text-right justify-end pr-[15px] pt-[200px] lg:p-[150px] leading-snug text-white">
             <span className="text-cool-green font-bold pr-[80px] lg:pr-0">
               {" "}
               Cool{" "}
