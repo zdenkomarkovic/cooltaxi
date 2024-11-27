@@ -7,7 +7,7 @@ import { FaViber } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="bg-black bg-opacity-50 fixed left-0 right-0 top-0  uppercase text-white z-50">
+    <header className="bg-black bg-opacity-50 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
       <nav className="container mx-auto px-[50px] py-5 flex justify-between z-100 items-center">
         <div className="flex gap-8">
           <a
@@ -38,7 +38,7 @@ const Navbar = () => {
             </span>
           </a>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-5">
           {navbarLinks.map((link, i) => {
             return (
               <Link key={i} href={link.route}>
@@ -47,9 +47,6 @@ const Navbar = () => {
             );
           })}
         </div>
-        <Link href="/service">
-          <p className="">Servis</p>
-        </Link>
       </nav>
     </header>
   );

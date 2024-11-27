@@ -8,7 +8,7 @@ export const navbarLinks = [
     label: "O nama",
   },
   {
-    route: "#contact",
+    route: "/#kontakt",
     label: "Kontakt",
   },
   {
