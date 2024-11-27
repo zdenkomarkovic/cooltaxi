@@ -9,7 +9,7 @@ const Kontakt = () => {
     <>
       <div id="kontakt" className="bg-black pb-[50px]">
         <div className=" container text-center px-[8px] lg:px-[50px]">
-          <h2 className="flex flex-col text-[50px] lg:text-[100px] text-white  leading-none py-[30px]">
+          <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] text-white leading-tight py-[30px] lg:py-[50px]">
             <span className="text-cool-green font-bold">Cool </span>Taksi Niš
           </h2>
           <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between">
