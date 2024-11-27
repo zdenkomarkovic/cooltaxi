@@ -30,7 +30,7 @@ const ButtonToTop = () => {
     <button
       className={` scrollToTopButton ${
         isVisible ? "visible" : ""
-      }  fixed bottom-0 right-0 p-1 mr-6 mb-[71px] bg-black z-50 font-bold text-white `}
+      }  fixed bottom-0 right-0 p-1 mr-6 mb-[71px] bg-black rounded-full z-50 font-bold text-white `}
       onClick={scrollToTop}
     >
       <IoIosArrowUp className=" text-[35px] text-primary" />

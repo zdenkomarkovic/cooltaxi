@@ -15,7 +15,7 @@ const Navbar = () => {
             className="flex gap-3 items-center  hover:scale-110 bg-white px-3 py-1 border-collapse rounded-full"
           >
             {" "}
-            <FcPhoneAndroid className="bg-cool-green border rounded-full w-10 h-10 p-[3px] " />
+            <FcPhoneAndroid className="w-9 h-9" />
             <span className="text-black font-bold text-[18px]">
               069/197 11 11
             </span>
@@ -24,7 +24,7 @@ const Navbar = () => {
             href="tel:+38119711"
             className="flex gap-3 items-center  hover:scale-110  bg-white px-3 rounded-full"
           >
-            <FaPhoneAlt className="bg-cool-green border rounded-full w-10 h-10 p-[6px] text-white" />
+            <FaPhoneAlt className=" w-7 h-7  text-cool-green" />
             <span className="text-black font-bold text-[18px]">19711</span>
           </a>
           <a
@@ -32,7 +32,7 @@ const Navbar = () => {
             className="flex gap-3 items-center hover:scale-110 bg-white px-3  border-collapse rounded-full"
           >
             {" "}
-            <FaViber className="bg-purple-600 border rounded-full w-10 h-10 p-[5px] text-white" />
+            <FaViber className="bg-purple-600 rounded-full w-9 h-9 p-[4px] text-white" />
             <span className="text-black font-bold text-[18px]">
               065/97 197 11
             </span>
@@ -42,7 +42,7 @@ const Navbar = () => {
           {navbarLinks.map((link, i) => {
             return (
               <Link key={i} href={link.route}>
-                <p className="">{link.label}</p>
+                <p className="hover:text-cool-green">{link.label}</p>
               </Link>
             );
           })}
