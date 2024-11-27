@@ -15,8 +15,4 @@ export const navbarLinks = [
     route: "#priceList",
     label: "Cenovnik",
   },
-  {
-    route: "/service",
-    label: "Servis",
-  },
 ];

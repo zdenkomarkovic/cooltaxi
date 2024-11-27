@@ -8,7 +8,7 @@ import { FaViber } from "react-icons/fa";
 const Navbar = () => {
   return (
     <header className="bg-black bg-opacity-50 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
-      <nav className="container mx-auto px-[50px] py-5 flex justify-between z-100 items-center">
+      <nav className="hidden container mx-auto px-[50px] py-5 lg:flex justify-between z-100 items-center">
         <div className="flex gap-8">
           <a
             href="tel:+381691971111"
@@ -46,6 +46,14 @@ const Navbar = () => {
               </Link>
             );
           })}
+          <a
+            href="https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cool-green"
+          >
+            servis
+          </a>
         </div>
       </nav>
     </header>
