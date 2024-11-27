@@ -6,8 +6,8 @@ import { IoCarSportOutline } from "react-icons/io5";
 const UvekCool = () => {
   return (
     <div className="container px-[15px] mx-auto pb-[100px]">
-      <h2 className="text-[80px] text-center py-[80px]">
-        Uvek birajte <span className="text-cool-green">Cool</span> Taxi Niš
+      <h2 className="text-[80px] text-center py-[80px] font-bold">
+        Uvek birajte <span className="text-cool-green">Cool</span> Taksi Niš
       </h2>
       <div className="flex gap-[15px]">
         <div className="text-center flex flex-col gap-[15px]">
