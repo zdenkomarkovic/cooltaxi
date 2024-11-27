@@ -7,8 +7,8 @@ import { FaViber } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="bg-black bg-opacity-50 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
-      <nav className="lg:hidden flex mx-auto px-[10px] py-2 justify-between z-100 items-center">
+    <header className="bg-black bg-opacity-60 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
+      <nav className="lg:hidden flex mx-auto px-[10px] py-3 justify-between z-100 items-center">
         <div className="flex flex-col gap-3">
           <a
             href="tel:+381691971111"
