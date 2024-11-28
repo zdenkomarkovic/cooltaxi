@@ -44,17 +44,25 @@ const Navbar = () => {
             <span className="text-black text-[17px]  ">065/9719711</span>
           </a>
         </div>
-        <div onClick={toggleDropdownMenu} className="">
+        <div onClick={toggleDropdownMenu} className="relative">
           {dropdownMenu ? (
             <RxHamburgerMenu className="text-white w-[50px] h-auto pl-5" />
           ) : (
             <AiOutlineClose className="text-white w-[50px] h-auto pl-5" />
           )}
-          <div className={` ${dropdownMenu && "hidden"} rounded-b-xl`}>
+          <div
+            className={` ${
+              dropdownMenu && "hidden"
+            } absolute flex flex-col mt-3 text-white w-full mx-auto  bg-black bg-opacity-70 rounded-b-3xl`}
+          >
             {navbarLinks.map((link, i) => {
               return (
-                <Link key={i} href={link.route}>
-                  <p className="hover:text-cool-green">{link.label}</p>
+                <Link
+                  key={i}
+                  href={link.route}
+                  className="hover:text-cool-green px-5 py-1"
+                >
+                  {link.label}
                 </Link>
               );
             })}
@@ -62,7 +70,7 @@ const Navbar = () => {
               href="https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-cool-green"
+              className="hover:text-cool-green px-5 py-1"
             >
               servis
             </a>
