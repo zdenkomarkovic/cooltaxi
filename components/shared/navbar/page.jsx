@@ -1,15 +1,25 @@
+"use client";
+
 import { navbarLinks } from "@/constants/index";
 import Link from "@/node_modules/next/link";
-import React from "react";
+import React, { useState } from "react";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaViber } from "react-icons/fa";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
+  const [dropdownMenu, setDropdownMenu] = useState(true);
+
+  const toggleDropdownMenu = () => {
+    setDropdownMenu((prev) => !prev);
+  };
+
   return (
     <header className="bg-black bg-opacity-60 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
       <nav className="lg:hidden px-[5px] py-3 z-100 ">
-        <div className="flex justify-between">
+        <div className="flex justify-between pb-[15px]">
           <a
             href="tel:+381691971111"
             className="flex items-center bg-white px-[3px] h-[35px] rounded-full tracking-tight"
@@ -34,22 +44,29 @@ const Navbar = () => {
             <span className="text-black text-[17px]  ">065/9719711</span>
           </a>
         </div>
-        <div className=" hidden flex gap-2">
-          {navbarLinks.map((link, i) => {
-            return (
-              <Link key={i} href={link.route}>
-                <p className="hover:text-cool-green">{link.label}</p>
-              </Link>
-            );
-          })}
-          <a
-            href="https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-cool-green"
-          >
-            servis
-          </a>
+        <div onClick={toggleDropdownMenu} className="">
+          {dropdownMenu ? (
+            <RxHamburgerMenu className="text-white w-[50px] h-auto pl-5" />
+          ) : (
+            <AiOutlineClose className="text-white w-[50px] h-auto pl-5" />
+          )}
+          <div className={` ${dropdownMenu && "hidden"} rounded-b-xl`}>
+            {navbarLinks.map((link, i) => {
+              return (
+                <Link key={i} href={link.route}>
+                  <p className="hover:text-cool-green">{link.label}</p>
+                </Link>
+              );
+            })}
+            <a
+              href="https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cool-green"
+            >
+              servis
+            </a>
+          </div>
         </div>
       </nav>
       <nav className="hidden container mx-auto px-[50px] py-5 lg:flex justify-between z-100 items-center">
