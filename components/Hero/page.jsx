@@ -2,6 +2,7 @@ import React from "react";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaViber } from "react-icons/fa";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -36,6 +37,16 @@ const Hero = () => {
         >
           <FaViber className="bg-purple-600 rounded-full w-6 h-6 p-[3px] text-white" />
           <span className="text-[19px]">065/9719711</span>
+        </a>
+      </div>
+      <div className=" relative z-20">
+        <a href="tel:+38119711" className="relative z-20">
+          <img
+            src={"Google_Play-Badge-Logo.wine.svg"}
+            className="w-[150px] h-[50px]"
+          />
+          <p className="text-white">instalirajte nasu aplikaciju.</p>
+          <p className="text-white">I narucite voznju.</p>
         </a>
       </div>
 

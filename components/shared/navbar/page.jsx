@@ -35,7 +35,7 @@ const Navbar = () => {
                 <Link
                   key={i}
                   href={link.route}
-                  className="hover:text-cool-green px-5 py-2"
+                  className="hover:text-cool-green px-5 py-[9px]"
                 >
                   {link.label}
                 </Link>
