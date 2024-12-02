@@ -4,15 +4,19 @@ export const navbarLinks = [
     label: "Pocetna",
   },
   {
-    route: "#about",
-    label: "O nama",
+    route: "kalkulatorVoznje",
+    label: "Kalkulator voznje",
+  },
+  {
+    route: "rezervacijaVoznje",
+    label: "Rezervacija voznje",
+  },
+  {
+    route: "/#cenovnik",
+    label: "Cenovnik",
   },
   {
     route: "/#kontakt",
     label: "Kontakt",
-  },
-  {
-    route: "#priceList",
-    label: "Cenovnik",
   },
 ];

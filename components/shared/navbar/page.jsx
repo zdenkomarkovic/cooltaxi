@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black bg-opacity-60 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
+    <header className="bg-black bg-opacity-60 fixed left-0 right-0 top-0   text-white  z-50 text-[20px]">
       <nav className="lg:hidden px-[5px] py-3 z-100 ">
         <div onClick={toggleDropdownMenu} className="relative">
           {dropdownMenu ? (
@@ -47,7 +47,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="hover:text-cool-green px-5 py-1"
             >
-              servis
+              Servis
             </a>
           </div>
         </div>
@@ -86,15 +86,15 @@ const Navbar = () => {
               </Link>
             );
           })}
-          <a
-            href="https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-cool-green"
-          >
-            servis
-          </a>
         </div>
+        <a
+          href="https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-cool-green"
+        >
+          Servis
+        </a>
       </nav>
     </header>
   );

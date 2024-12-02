@@ -12,7 +12,7 @@ const Kontakt = () => {
   return (
     <>
       <div id="kontakt" className="bg-black pb-[50px]">
-        <div className=" container text-center px-[8px] lg:px-[50px]">
+        <div className=" container mx-auto text-center px-[8px] lg:px-[50px]">
           <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] text-white leading-tight py-[30px] lg:py-[50px]">
             <span className="text-cool-green font-bold">Cool </span>Taksi Niš
           </h2>

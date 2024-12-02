@@ -39,20 +39,25 @@ const Hero = () => {
           <span className="text-[19px]">065/9719711</span>
         </a>
       </div>
-      <div className=" relative z-20 text-center pt-[30px]">
+      <div className=" relative z-20 text-center pt-[30px]  lg:pt-[200px]">
         <a
           href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
           className="relative z-20"
         >
-          <img src={"Google_Play.svg"} className="w-[200px] h-[65px] mx-auto" />
-          <p className="text-white">instalirajte nasu aplikaciju.</p>
-          <p className="text-white">I narucite voznju.</p>
+          <img
+            src={"Google_Play.svg"}
+            className="w-[200px] h-[65px] mx-auto lg:w-[300px] lg:h-[100px]"
+          />
+          <p className="text-white lg:text-[20px]">
+            instalirajte nasu aplikaciju klikom na dugme.
+          </p>
+          <p className="text-white lg:text-[20px]">I narucite voznju.</p>
         </a>
       </div>
 
-      <div className="relative z-20">
-        <h1 className="flex flex-col pl-[50px] lg:flex-row text-outline-green lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[50px] lg:pt-[350px] lg:pr-[250px] leading-snug text-white">
-          <span className="text-cool-green text-outline-none font-bold  lg:pr-0">
+      <div className="container mx-auto relative z-20">
+        <h1 className="flex flex-col pl-[50px] lg:flex-row text-outline-green lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[50px] lg:pt-[150px] lg:pr-[100px] leading-snug text-white">
+          <span className="text-cool-green text-outline-none font-bold ">
             Cool
           </span>
           Taxi Niš
