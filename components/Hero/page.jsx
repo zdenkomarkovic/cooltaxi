@@ -16,7 +16,7 @@ const Hero = () => {
         }}
       ></div>
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
-      <div className=" lg:hidden relative z-20 flex flex-col gap-5 items-start  pb-[15px] pt-[130px]">
+      <div className=" lg:hidden relative z-20 flex flex-col gap-5 items-start  pb-[15px] pt-[100px]">
         <a
           href="tel:+381691971111"
           className="flex items-center gap-2 ml-[50px] border-2 border-cool-green text-white bg-black px-[12px] py-[4px] rounded-full"
@@ -39,11 +39,11 @@ const Hero = () => {
           <span className="text-[19px]">065/9719711</span>
         </a>
       </div>
-      <div className=" relative z-20">
+      <div className=" relative z-20 text-center pt-[30px]">
         <a href="tel:+38119711" className="relative z-20">
           <img
             src={"Google_Play-Badge-Logo.wine.svg"}
-            className="w-[150px] h-[50px]"
+            className="w-[150px] h-[50px] mx-auto"
           />
           <p className="text-white">instalirajte nasu aplikaciju.</p>
           <p className="text-white">I narucite voznju.</p>
@@ -51,7 +51,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-20">
-        <h1 className="flex flex-col pl-[50px] lg:flex-row text-outline-green lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[100px] lg:pt-[350px] lg:pr-[250px] leading-snug text-white">
+        <h1 className="flex flex-col pl-[50px] lg:flex-row text-outline-green lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[50px] lg:pt-[350px] lg:pr-[250px] leading-snug text-white">
           <span className="text-cool-green text-outline-none font-bold  lg:pr-0">
             Cool
           </span>
