@@ -6,6 +6,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { FaGooglePlusG } from "react-icons/fa6";
 
 const Kontakt = () => {
   return (
@@ -15,7 +16,7 @@ const Kontakt = () => {
           <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] text-white leading-tight py-[30px] lg:py-[50px]">
             <span className="text-cool-green font-bold">Cool </span>Taksi Niš
           </h2>
-          <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between">
+          <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between items-center">
             <div className=" flex flex-col gap-[4px] text-[22px] lg:text-[30px] ">
               <a
                 href="viber://contact?number=%2B381659719711"
@@ -84,6 +85,13 @@ const Kontakt = () => {
                   rel="noopener noreferrer"
                 >
                   <FaTiktok className="text-white" />
+                </a>
+                <a
+                  href="https://www.google.com/maps/place/COOL+D.O.O./@43.3274182,21.9009889,17z/data=!3m1!4b1!4m6!3m5!1s0x4755b0c9362cd831:0x36b51b92ffce100!8m2!3d43.3274182!4d21.9035638!16s%2Fg%2F11h6s251pr?authuser=0&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGooglePlusG className="text-white" />
                 </a>
               </div>
             </div>

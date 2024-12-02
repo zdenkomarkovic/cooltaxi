@@ -28,14 +28,14 @@ const Navbar = () => {
           <div
             className={` ${
               dropdownMenu && "hidden"
-            } absolute flex flex-col mt-3 text-white w-full mx-auto  bg-black bg-opacity-70 rounded-b-3xl`}
+            } absolute flex flex-col mt-3 text-white w-full mx-auto  bg-black bg-opacity-90 rounded-b-3xl`}
           >
             {navbarLinks.map((link, i) => {
               return (
                 <Link
                   key={i}
                   href={link.route}
-                  className="hover:text-cool-green px-5 py-1"
+                  className="hover:text-cool-green px-5 py-2"
                 >
                   {link.label}
                 </Link>
