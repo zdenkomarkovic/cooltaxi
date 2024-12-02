@@ -13,26 +13,26 @@ const Hero = () => {
         <div className="  flex  flex-col gap-3 items-center pb-[15px] pl-[100px] pt-[100px]">
           <a
             href="tel:+381691971111"
-            className="flex items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full "
+            className="flex items-center border-2 border-cool-green text-cool-green bg-black px-[12px] py-[4px] rounded-full "
           >
             {" "}
             <FcPhoneAndroid className="w-6 h-8" />
-            <span className=" text-[17px]">069/1971111</span>
+            <span className=" text-[19px]">069/1971111</span>
           </a>
           <a
             href="tel:+38119711"
-            className="flex gap-[2px] items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full tracking-tight"
+            className="flex gap-[2px] items-center border-2 border-cool-green text-cool-green bg-black px-[12px] py-[4px] rounded-full tracking-tight"
           >
             <FaPhoneAlt className=" w-5 h-6  text-cool-green" />
-            <span className=" text-[17px] ">19711</span>
+            <span className=" text-[19px] ">19711</span>
           </a>
           <a
             href="viber://contact?number=%2B381659719711"
-            className="flex gap-1 items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full"
+            className="flex gap-1 items-center border-2 border-cool-green text-cool-green bg-black px-[12px] py-[4px] rounded-full"
           >
             {" "}
             <FaViber className="bg-purple-600 rounded-full w-6 h-6 p-[3px] text-white" />
-            <span className=" text-[17px]  ">065/9719711</span>
+            <span className=" text-[19px]  ">065/9719711</span>
           </a>
         </div>
         <div className="">
