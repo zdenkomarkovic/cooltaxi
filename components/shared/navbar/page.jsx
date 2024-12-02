@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <header className="bg-black bg-opacity-60 fixed left-0 right-0 top-0  uppercase text-white font-bold z-50 text-[22px]">
-      <nav className="lg:hidden px-[5px] py-3 z-100 ">
-        <div className="flex justify-around pb-[15px]">
+      <nav className="lg:hidden flex px-[5px] py-3 z-100 ">
+        {/* <div className="flex justify-around pb-[15px]">
           <a
             href="tel:+381691971111"
             className="flex items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full"
@@ -28,13 +28,13 @@ const Navbar = () => {
             <FcPhoneAndroid className="w-6 h-8" />
             <span className=" text-[17px]">069/1971111</span>
           </a>
-          {/* <a
+          <a
             href="tel:+38119711"
             className="flex gap-[2px] items-center border-2 border-cool-green text-cool-green bg-black px-[3px] h-[35px] rounded-full tracking-tight"
           >
             <FaPhoneAlt className=" w-5 h-6  text-cool-green" />
             <span className=" text-[17px] ">19711</span>
-          </a> */}
+          </a>
           <a
             href="viber://contact?number=%2B381659719711"
             className="flex gap-1 items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full"
@@ -43,32 +43,8 @@ const Navbar = () => {
             <FaViber className="bg-purple-600 rounded-full w-6 h-6 p-[3px] text-white" />
             <span className=" text-[17px]  ">065/9719711</span>
           </a>
-        </div>
-        <div className=" flex flex-col gap-3 w-[150px] pb-[15px]">
-          <a
-            href="tel:+381691971111"
-            className="flex items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full"
-          >
-            {" "}
-            <FcPhoneAndroid className="w-6 h-8" />
-            <span className=" text-[17px]">069/1971111</span>
-          </a>
-          {/* <a
-            href="tel:+38119711"
-            className="flex gap-[2px] items-center border-2 border-cool-green text-cool-green bg-black px-[3px] h-[35px] rounded-full tracking-tight"
-          >
-            <FaPhoneAlt className=" w-5 h-6  text-cool-green" />
-            <span className=" text-[17px] ">19711</span>
-          </a> */}
-          <a
-            href="viber://contact?number=%2B381659719711"
-            className="flex gap-1 items-center border-2 border-cool-green text-cool-green bg-black px-[8px] h-[38px] rounded-full"
-          >
-            {" "}
-            <FaViber className="bg-purple-600 rounded-full w-6 h-6 p-[3px] text-white" />
-            <span className=" text-[17px]  ">065/9719711</span>
-          </a>
-        </div>
+        </div> */}
+
         <div onClick={toggleDropdownMenu} className="relative">
           {dropdownMenu ? (
             <RxHamburgerMenu className="text-white w-[50px] h-auto pl-5" />
