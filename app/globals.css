@@ -64,3 +64,14 @@ html {
 .active {
   color: #12b504;
 }
+@layer utilities {
+  .text-outline-white {
+    text-shadow: 0 0 5px white;
+  }
+  .text-outline-green {
+    text-shadow: 0 0 10px #12b504;
+  }
+  .text-outline-none {
+    text-shadow: 0 0 0px;
+  }
+}

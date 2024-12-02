@@ -3,6 +3,9 @@ import { FaViber } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { MdOutlineEmail } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 const Kontakt = () => {
   return (
@@ -60,6 +63,29 @@ const Kontakt = () => {
               </a>
 
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
+              <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
+                <a
+                  href="https://www.instagram.com/cool_taxi_nis/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="p-1 bg-red-400 rounded-xl text-white" />
+                </a>
+                <a
+                  href="https://www.facebook.com/cooltaxinis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook className="text-blue-500" />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@cool.taxi.nis?lang=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTiktok className="text-white" />
+                </a>
+              </div>
             </div>
             <div>
               <iframe

@@ -40,8 +40,10 @@ const Hero = () => {
       </div>
 
       <div className="relative z-20">
-        <h1 className="flex flex-col pl-[50px] lg:flex-row lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[100px] lg:pt-[350px] lg:pr-[250px] leading-snug text-white">
-          <span className="text-cool-green font-bold  lg:pr-0">Cool</span>
+        <h1 className="flex flex-col pl-[50px] lg:flex-row text-outline-green lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[100px] lg:pt-[350px] lg:pr-[250px] leading-snug text-white">
+          <span className="text-cool-green text-outline-none font-bold  lg:pr-0">
+            Cool
+          </span>
           Taxi Niš
         </h1>
       </div>
