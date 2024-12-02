@@ -40,11 +40,11 @@ const Hero = () => {
         </a>
       </div>
       <div className=" relative z-20 text-center pt-[30px]">
-        <a href="tel:+38119711" className="relative z-20">
-          <img
-            src={"Google_Play-Badge-Logo.wine.svg"}
-            className="w-[150px] h-[50px] mx-auto"
-          />
+        <a
+          href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
+          className="relative z-20"
+        >
+          <img src={"Google_Play.svg"} className="w-[200px] h-[65px] mx-auto" />
           <p className="text-white">instalirajte nasu aplikaciju.</p>
           <p className="text-white">I narucite voznju.</p>
         </a>
