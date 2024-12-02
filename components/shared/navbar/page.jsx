@@ -56,30 +56,26 @@ const Navbar = () => {
         <div className="flex gap-8">
           <a
             href="tel:+381691971111"
-            className="flex gap-3 items-center  hover:scale-110 bg-white px-3 py-1 border-collapse rounded-full"
+            className="flex gap-3 items-center  hover:scale-110  px-3 py-1 bg-black border-2 border-cool-green text-white rounded-full"
           >
             {" "}
             <FcPhoneAndroid className="w-9 h-9" />
-            <span className="text-black font-bold text-[18px]">
-              069/197 11 11
-            </span>
+            <span className="font-bold text-[20px]">069/197 11 11</span>
           </a>
           <a
             href="tel:+38119711"
-            className="flex gap-3 items-center  hover:scale-110  bg-white px-3 rounded-full"
+            className="flex gap-3 items-center  hover:scale-110   bg-black border-2 border-cool-green text-white px-3 rounded-full"
           >
             <FaPhoneAlt className=" w-7 h-7  text-cool-green" />
-            <span className="text-black font-bold text-[18px]">19711</span>
+            <span className="font-bold text-[20px]">19711</span>
           </a>
           <a
             href="viber://contact?number=%2B381659719711"
-            className="flex gap-3 items-center hover:scale-110 bg-white px-3  border-collapse rounded-full"
+            className="flex gap-3 items-center hover:scale-110  bg-black border-2 border-cool-green text-white px-3 rounded-full"
           >
             {" "}
             <FaViber className="bg-purple-600 rounded-full w-9 h-9 p-[4px] text-white" />
-            <span className="text-black font-bold text-[18px]">
-              065/97 197 11
-            </span>
+            <span className="font-bold text-[20px]">065/97 197 11</span>
           </a>
         </div>
         <div className="flex gap-5">
