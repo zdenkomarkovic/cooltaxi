@@ -10,7 +10,7 @@ const Hero = () => {
       style={{ backgroundImage: "url(/taxi.jpg)", zIndex: -1 }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10">
-        <div className="  flex  flex-col gap-3 items-start pl-[50px] pb-[15px]  pt-[200px]">
+        <div className="  flex  flex-col gap-3 items-start pl-[50px] pb-[15px]  pt-[130px]">
           <a
             href="tel:+381691971111"
             className="flex items-center border-2 border-cool-green text-cool-green bg-black px-[12px] py-[4px] rounded-full "
