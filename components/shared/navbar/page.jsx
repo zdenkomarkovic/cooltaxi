@@ -22,26 +22,26 @@ const Navbar = () => {
         <div className="flex justify-between pb-[15px]">
           <a
             href="tel:+381691971111"
-            className="flex items-center bg-white px-[3px] h-[35px] rounded-full tracking-tight"
+            className="flex items-center border-2 border-cool-green text-cool-green bg-black px-[3px] h-[35px] rounded-full tracking-tight"
           >
             {" "}
             <FcPhoneAndroid className="w-6 h-8" />
-            <span className="text-black text-[17px]">069/1971111</span>
+            <span className=" text-[17px]">069/1971111</span>
           </a>
           <a
             href="tel:+38119711"
-            className="flex gap-[2px] items-center bg-white px-[3px] h-[35px] rounded-full tracking-tight"
+            className="flex gap-[2px] items-center border-2 border-cool-green text-cool-green bg-black px-[3px] h-[35px] rounded-full tracking-tight"
           >
             <FaPhoneAlt className=" w-5 h-6  text-cool-green" />
-            <span className="text-black text-[17px] ">19711</span>
+            <span className=" text-[17px] ">19711</span>
           </a>
           <a
             href="viber://contact?number=%2B381659719711"
-            className="flex gap-1 items-center bg-white px-[3px] h-[35px] rounded-full tracking-tight"
+            className="flex gap-1 items-center border-2 border-cool-green text-cool-green bg-black px-[3px] h-[35px] rounded-full tracking-tight"
           >
             {" "}
             <FaViber className="bg-purple-600 rounded-full w-6 h-6 p-[3px] text-white" />
-            <span className="text-black text-[17px]  ">065/9719711</span>
+            <span className=" text-[17px]  ">065/9719711</span>
           </a>
         </div>
         <div onClick={toggleDropdownMenu} className="relative">
