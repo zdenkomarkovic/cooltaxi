@@ -28,15 +28,18 @@ body {
 
 .custom-scrollbar::-webkit-scrollbar-track {
   background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
+  width: 12px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
   border-radius: 50px;
+  width: 12px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
+  width: 12px;
 }
 
 ::-webkit-scrollbar {

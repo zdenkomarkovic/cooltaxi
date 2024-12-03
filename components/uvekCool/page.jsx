@@ -59,10 +59,10 @@ const UvekCool = () => {
         <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
           <TfiMapAlt className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
-            Transfer do Aerodroma
+            Pet frendly
           </h3>
           <p className="text-[18px] lg:text-[20px]">
-            Vozimo do svih aerodroma u zemlji i susednim drzavama
+            Vasi krzneni clanovi porodice su dobrodosli
           </p>
         </div>
       </div>

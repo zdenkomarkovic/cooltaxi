@@ -1,6 +1,6 @@
 export const navbarLinks = [
   {
-    route: "/",
+    route: "/#hero",
     label: "Pocetna",
   },
   {
