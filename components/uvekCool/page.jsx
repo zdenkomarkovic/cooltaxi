@@ -2,6 +2,9 @@ import React from "react";
 import { TfiMapAlt } from "react-icons/tfi";
 import { CiCreditCard2 } from "react-icons/ci";
 import { IoCarSportOutline } from "react-icons/io5";
+import { FaPaw } from "react-icons/fa6";
+import { FaWifi } from "react-icons/fa6";
+import { PiPiggyBankLight } from "react-icons/pi";
 
 const UvekCool = () => {
   return (
@@ -9,7 +12,7 @@ const UvekCool = () => {
       <h2 className="text-[45px] lg:text-[80px] text-center py-[30px] lg:py-[80px] font-bold">
         Uvek birajte <span className="text-cool-green">Cool</span> Taksi Niš
       </h2>
-      <div className="flex flex-col lg:flex-row flex-wrap gap-[25px] lg:gap-[30px] items-center mx-auto px-auto justify-center">
+      <div className="flex flex-col lg:flex-row flex-wrap gap-[25px] lg:gap-[30px] mx-auto px-auto justify-center">
         <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
           <TfiMapAlt className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
@@ -39,7 +42,7 @@ const UvekCool = () => {
         </div>
 
         <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
-          <TfiMapAlt className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
+          <PiPiggyBankLight className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Placanje preko racuna
           </h3>
@@ -48,7 +51,7 @@ const UvekCool = () => {
           </p>
         </div>
         <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
-          <TfiMapAlt className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
+          <FaWifi className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Wi Fi U vozilima
           </h3>
@@ -57,7 +60,7 @@ const UvekCool = () => {
           </p>
         </div>
         <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
-          <TfiMapAlt className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
+          <FaPaw className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Pet frendly
           </h3>
