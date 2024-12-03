@@ -35,24 +35,35 @@ const Hero = () => {
           href="viber://contact?number=%2B381659719711"
           className="flex gap-3 w-[220px] items-center border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
         >
-          <FaViber className="bg-purple-600 rounded-full w-10 h-10 p-[3px] text-white" />
+          <FaViber className="bg-purple-600 rounded-full w-12 h-10 p-[3px] text-white" />
           <span className="text-[25px]">065/9719711</span>
         </a>
       </div>
       <div className=" relative z-20 text-center pt-[30px]  lg:pt-[200px]">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
-          className="relative z-20"
-        >
-          <img
-            src={"Google_Play.svg"}
-            className="w-[200px] h-[65px] mx-auto lg:w-[300px] lg:h-[100px]"
-          />
-          <p className="text-white lg:text-[20px]">
-            instalirajte nasu aplikaciju klikom na dugme.
-          </p>
-          <p className="text-white lg:text-[20px]">I narucite voznju.</p>
-        </a>
+        <div className="flex justify-center items-center">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
+            className="relative z-20"
+          >
+            <img
+              src={"Google_Play.svg"}
+              className="w-[170px] h-[65px] mx-auto lg:w-[280px] lg:h-[90px]"
+            />
+          </a>
+          <a
+            href="https://apps.apple.com/us/app/cool-taxi-ni%C5%A1/id6478986375"
+            className="relative z-20"
+          >
+            <img
+              src={"App_Store.svg"}
+              className="w-[170px] h-[60px] mx-auto lg:w-[300px] lg:h-[100px]"
+            />
+          </a>
+        </div>
+        <p className="text-white lg:text-[20px]">
+          instalirajte nasu aplikaciju klikom na dugme.
+        </p>
+        <p className="text-white lg:text-[20px]">I narucite voznju.</p>
       </div>
 
       <div className="container mx-auto relative z-20">

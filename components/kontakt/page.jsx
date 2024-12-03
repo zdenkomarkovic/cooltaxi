@@ -91,7 +91,7 @@ const Kontakt = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGooglePlusG className="text-white" />
+                  <FaGooglePlusG className="text-white text-[40px]" />
                 </a>
               </div>
             </div>
