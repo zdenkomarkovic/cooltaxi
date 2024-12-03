@@ -19,21 +19,21 @@ const Hero = () => {
       <div className=" lg:hidden relative z-20 flex flex-col gap-3 items-center  pb-[15px] pt-[100px]">
         <a
           href="tel:+381691971111"
-          className="flex items-center w-[220px] gap-2 border-2 border-cool-green text-white  px-[12px] py-[4px] "
+          className="flex items-center w-[220px] gap-2 border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
         >
           <FcPhoneAndroid className="w-10 h-10" />
           <span className="text-[25px]">069/1971111</span>
         </a>
         <a
           href="tel:+38119711"
-          className="flex gap-[8px] w-[220px] items-center border-2 border-cool-green text-white  px-[12px] py-[4px] "
+          className="flex gap-[8px] w-[220px] items-center border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
         >
           <FaPhoneAlt className="w-10 h-7 text-cool-green" />
           <span className="text-[25px]">19711</span>
         </a>
         <a
           href="viber://contact?number=%2B381659719711"
-          className="flex gap-3 w-[220px] items-center border-2 border-cool-green text-white  px-[12px] py-[4px] "
+          className="flex gap-3 w-[220px] items-center border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
         >
           <FaViber className="bg-purple-600 rounded-full w-10 h-10 p-[3px] text-white" />
           <span className="text-[25px]">065/9719711</span>
