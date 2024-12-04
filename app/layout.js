@@ -17,17 +17,23 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Cool Taxi Nis",
-  description: "Za prevoz se uvek obratite najboljem taxiju u Nisu",
+  description:
+    "Cool Taksi Nis, uvek tu za vas, brzi, pouzdani, u najkracem roku dolaze do vas i voze na zeljenu adresu.",
   icons: {
     icon: "/cool_logo.png",
   },
-  seo: {
-    title: "Cool Taxi Nis - Uvek tu za vas",
-    description:
-      "Cool Taxi Nis, uvek tu za vas, brzi, pouzdani, u najkracem roku dolaze do vas i voze na zeljenu adresu. ",
-    keywords:
-      "taksi, taksi nis, taxi, taxi nis, cool, cool taxi, cool taksi, taxi cool, taksi cool ",
-  },
+  keywords: [
+    "taksi",
+    "taksi nis",
+    "taxi",
+    "taxi nis",
+    "cool",
+    "cool taxi",
+    "cool taksi",
+    "taxi cool",
+    "taksi cool",
+  ],
+  robots: "index, follow",
 };
 
 export default function RootLayout({ children }) {
