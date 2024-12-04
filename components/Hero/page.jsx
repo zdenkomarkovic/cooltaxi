@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div id="hero" className="relative w-full h-screen">
+    <div className="relative w-full h-screen">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{

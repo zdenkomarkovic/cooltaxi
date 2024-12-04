@@ -21,6 +21,13 @@ export const metadata = {
   icons: {
     icon: "/cool_logo.png",
   },
+  seo: {
+    title: "Cool Taxi Nis - Uvek tu za vas",
+    description:
+      "Cool Taxi Nis, uvek tu za vas, brzi, pouzdani, u najkracem roku dolaze do vas i voze na zeljenu adresu. ",
+    keywords:
+      "taksi, taksi nis, taxi, taxi nis, cool, cool taxi, cool taksi, taxi cool, taksi cool ",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -1,6 +1,5 @@
 import Aplikacija from "@/components/aplikacija/page";
 import ButtonToTop from "@/components/buttonToTop/page";
-import Cenovnik from "@/components/cenovnik/page";
 import Hero from "@/components/Hero/page";
 import Kontakt from "@/components/kontakt/page";
 
@@ -14,8 +13,6 @@ const Home = () => {
       <ButtonToTop />
       <UvekCool />
       <Aplikacija />
-      <Cenovnik />
-      {/* <ReelsComponent /> */}
       <Kontakt />
     </div>
   );
