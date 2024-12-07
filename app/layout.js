@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Cool Taxi Nis",
+  title: "Cool Taxi Nis - uvek tu za vas",
   description:
     "Cool Taksi Nis, uvek tu za vas, brzi, pouzdani, u najkracem roku dolaze do vas i voze na zeljenu adresu.",
   icons: {
@@ -38,7 +38,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="sr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
