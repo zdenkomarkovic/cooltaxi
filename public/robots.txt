@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Host
+Host: https://www.taksinis.rs
+
+# Sitemaps
+Sitemap: https://www.taksinis.rs/sitemap.xml
