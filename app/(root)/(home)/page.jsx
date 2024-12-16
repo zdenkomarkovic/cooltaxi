@@ -1,3 +1,4 @@
+import About from "@/components/about/page";
 import Aplikacija from "@/components/aplikacija/page";
 import ButtonToTop from "@/components/buttonToTop/page";
 import Hero from "@/components/Hero/page";
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <ButtonToTop />
       <UvekCool />
+      <About />
       <Aplikacija />
       <Kontakt />
     </div>

@@ -21,6 +21,7 @@ export const metadata = {
     "Cool Taksi Nis, uvek tu za vas, brzi, pouzdani, u najkracem roku dolaze do vas i voze na zeljenu adresu.",
   icons: {
     icon: "/cool_logo.png",
+    apple: "/cool_logo.png",
   },
   keywords: [
     "taksi",
@@ -33,7 +34,9 @@ export const metadata = {
     "taxi cool",
     "taksi cool",
   ],
-  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.taksinis.rs/",
+  },
 };
 
 export default function RootLayout({ children }) {

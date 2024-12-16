@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa6";
+import Image from "next/image";
 
 const Kontakt = () => {
   return (
@@ -17,46 +18,63 @@ const Kontakt = () => {
             <span className="text-cool-green font-bold">Cool </span>Taksi Niš
           </h2>
           <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between items-center">
-            <div className=" flex flex-col gap-[4px] text-[22px] lg:text-[30px] ">
+            <div className=" flex flex-col gap-[4px] text-[20px] lg:text-[30px] ">
               <a
                 href="viber://contact?number=%2B381659719711"
-                className="flex gap-6 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px]"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
               >
-                {" "}
+                <Image
+                  src={"/mts-logo.png"}
+                  width={80}
+                  height={50}
+                  alt={"logo"}
+                  className="bg-white p-2 rounded-lg"
+                />
                 <FaViber className="bg-purple-600  rounded-full w-10 h-10 p-[5px] text-white" />
                 <span className="text-white">065/97 197 11</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+38119711"
-                className="flex gap-6 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px]"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
               >
-                {" "}
                 <FaPhoneAlt className="bg-white rounded-full w-10 h-10 p-[6px] text-cool-green" />
                 <span className="text-white">19711</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+381691971111"
-                className="flex gap-6 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px]"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
               >
-                {" "}
-                <FcPhoneAndroid className="bg-white rounded-full w-10 h-10 p-[3px] " />
+                <Image
+                  src={"/yettel-logo.png"}
+                  width={70}
+                  height={50}
+                  alt={"logo"}
+                  className="rounded-lg"
+                />
+
                 <span className="text-white">069/197 11 11</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+381603219711"
-                className="flex gap-6 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px]"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
               >
-                {" "}
-                <FcPhoneAndroid className="bg-white rounded-full w-10 h-10 p-[3px] " />
+                <Image
+                  src={"/a1-logo.png"}
+                  width={70}
+                  height={40}
+                  alt={"logo"}
+                  className="bg-white rounded-lg"
+                />
+
                 <span className="text-white">060/32 197 11</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="mailto:office@cooltaxi.rs"
-                className="flex gap-6 items-center py-[5px] mx-auto hover:scale-110 w-[300px]"
+                className="flex gap-3 items-center py-[5px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
               >
                 {" "}
                 <MdOutlineEmail className="w-10 h-10 p-[3px] text-white " />
