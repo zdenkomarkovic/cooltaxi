@@ -8,7 +8,7 @@ import { FaTiktok } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa6";
 import Image from "next/image";
 
-const Kontakt = () => {
+const Footer = () => {
   return (
     <>
       <div id="kontakt" className="bg-black pb-[50px]">
@@ -132,4 +132,4 @@ const Kontakt = () => {
   );
 };
 
-export default Kontakt;
+export default Footer;

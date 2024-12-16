@@ -15,7 +15,6 @@ const Home = () => {
       <UvekCool />
       <About />
       <Aplikacija />
-      <Kontakt />
     </div>
   );
 };
