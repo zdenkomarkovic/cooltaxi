@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <>
       <div id="kontakt" className="bg-black pb-[50px]">
-        <div className=" container mx-auto text-center px-[8px] lg:px-[50px]">
-          <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] text-white leading-tight py-[30px] lg:py-[50px]">
+        <div className=" container mx-auto text-center px-[8px] lg:px-[50px] text-gray-100">
+          <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] leading-tight py-[30px] lg:py-[50px]">
             <span className="text-cool-green font-bold">Cool </span>Taksi Niš
           </h2>
           <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between items-center">
@@ -22,14 +22,14 @@ const Footer = () => {
                 href="viber://contact?number=%2B381659719711"
                 className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[260px] lg:w-[400px]"
               >
-                <FaViber className="bg-purple-600  rounded-full w-10 h-10 p-[5px] text-white" />
-                <span className="text-white">065/97 197 11</span>
+                <FaViber className="bg-purple-600  rounded-full w-10 h-10 p-[5px]" />
+                <span className="">065/97 197 11</span>
                 <Image
                   src={"/mts-logo.png"}
                   width={60}
                   height={30}
                   alt={"logo"}
-                  className="bg-white p-2 rounded-lg"
+                  className="bg-gray-100 p-2 rounded-lg"
                 />
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
@@ -37,8 +37,8 @@ const Footer = () => {
                 href="tel:+38119711"
                 className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[260px] lg:w-[400px] "
               >
-                <FaPhoneAlt className="bg-white rounded-full w-9 h-9 p-[4px] text-cool-green" />
-                <span className="text-white">19711</span>
+                <FaPhoneAlt className="bg-gray-100 rounded-full w-9 h-9 p-[4px] text-cool-green" />
+                <span className="">19711</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
@@ -53,7 +53,7 @@ const Footer = () => {
                   className="rounded-lg"
                 />
 
-                <span className="text-white">069/197 11 11</span>
+                <span className="">069/197 11 11</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
@@ -65,10 +65,10 @@ const Footer = () => {
                   width={37}
                   height={37}
                   alt={"logo"}
-                  className="bg-white rounded-lg"
+                  className="bg-gray-100 rounded-lg"
                 />
 
-                <span className="text-white">060/32 197 11</span>
+                <span className="">060/32 197 11</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
@@ -76,8 +76,8 @@ const Footer = () => {
                 className="flex gap-3 items-center py-[5px] mx-auto hover:scale-110 w-[260px] lg:w-[400px] "
               >
                 {" "}
-                <MdOutlineEmail className="w-10 h-10 p-[3px] text-white " />
-                <span className=" text-white">office@cooltaxi.rs</span>
+                <MdOutlineEmail className="w-10 h-10 p-[3px]" />
+                <span className="">office@cooltaxi.rs</span>
               </a>
 
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
@@ -87,7 +87,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram className="p-1 bg-red-400 rounded-xl text-white" />
+                  <FaInstagram className="p-1 bg-red-400 rounded-xl text-gray-100" />
                 </a>
                 <a
                   href="https://www.facebook.com/cooltaxinis"
@@ -101,14 +101,14 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaTiktok className="text-white" />
+                  <FaTiktok className="" />
                 </a>
                 <a
                   href="https://www.google.com/maps/place/COOL+D.O.O./@43.3274182,21.9009889,17z/data=!3m1!4b1!4m6!3m5!1s0x4755b0c9362cd831:0x36b51b92ffce100!8m2!3d43.3274182!4d21.9035638!16s%2Fg%2F11h6s251pr?authuser=0&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGooglePlusG className="text-white text-[40px]" />
+                  <FaGooglePlusG className=" text-[40px]" />
                 </a>
               </div>
             </div>
@@ -122,9 +122,17 @@ const Footer = () => {
               ></iframe>
             </div>
           </div>
-          <p className="pt-8 lg:pt-14 text-white">
+          <p className="pt-8 lg:pt-14">
             © 2024 Cool Taxi Nis. Designed by{" "}
-            <span className="font-bold"> Manikam.Dev.Solutions</span>
+            <a
+              href="https://manikam-dev-solutions.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold"
+            >
+              {" "}
+              Manikam.Dev.Solutions
+            </a>
           </p>
         </div>
       </div>
