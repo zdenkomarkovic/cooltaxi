@@ -12,19 +12,24 @@ const About = () => {
           <span className="text-cool-green font-bold">Cool Taxi</span> , vodeću
           taksi firmu u Nišu koja vas pouzdano prevozi{" "}
           <span className="text-cool-green">od 28. juna 2000-te godine</span>.
-          Sa preko dve decenije iskustva, ponosni smo na reputaciju
-          profesionalizma, sigurnosti i brige o našim putnicima. Kada tražite
-          taxi u Nišu,{" "}
-          <span className="text-cool-green font-bold">Cool Taxi</span> je pravo
-          rešenje za vas – brzi, tačni i ekološki osvešćeni.
+          Sa više od dve decenije iskustva, izgradili smo reputaciju zasnovanu
+          na profesionalizmu, tačnosti i brizi o našim putnicima. Ako tražite
+          <span className="font-bold"> taxi u Nišu</span>,{" "}
+          <span className="text-cool-green font-bold">Cool Taxi</span> je pravi
+          izbor za vas – uvek dostupni, ekološki osvešćeni i spremni da
+          odgovorimo na sve vaše potrebe.
         </p>
         <p className="text-gray-100 text-[18px] lg:text-[24px] indent-5 py-[15px]">
-          Naša flota obuhvata isključivo savremena vozila novije proizvodnje,
-          uključujući hibridne i električne automobile. Ova tehnologija ne samo
-          da omogućava tihu i udobnu vožnju, već i smanjuje emisiju štetnih
-          gasova, čime doprinosimo očuvanju životne sredine. Kao lokalna firma,
-          posvećeni smo tome da naš grad ostane čist i zdrav za buduće
-          generacije.
+          Naša flota se sastoji od vozila
+          <span className="font-bold"> novije proizvodnje</span>, i to
+          iskljucivo{" "}
+          <span className="font-bold"> hibridna i električna vozila</span>.
+          Zahvaljujući ovim vozilima, vaša vožnja nije samo tiha i udobna, već i
+          ekološki odgovorna. Smanjenjem emisije štetnih gasova aktivno
+          doprinosimo čistijem vazduhu i zdravijem okruženju u našem gradu. Kao
+          firma sa dubokim lokalnim korenima, ponosni smo na to što vodimo
+          računa o životnoj sredini i doprinosimo boljem kvalitetu života u
+          Nišu.
         </p>
         <h5 className="text-gray-100 font-bold text-[24px] lg:text-[38px] py-[15px]">
           Zašto odabrati Cool Taxi
@@ -32,11 +37,13 @@ const About = () => {
         <ul className="flex flex-col gap-[15px] text-gray-100 text-[18px] lg:text-[24px] py-[15px]">
           <li>
             <span className="font-extrabold">Brza i sigurna usluga</span>: Naši
-            vozači su iskusni profesionalci koji poznaju svaki kutak Niša.
+            vozači su licencirani profesionalci sa odličnim poznavanjem grada.
+            Bez obzira na gužve ili vreme dana, uvek stižemo brzo i bezbedno
           </li>
           <li>
-            <span className="font-extrabold">Ekološki prevoz</span>: Hibridna i
-            električna vozila dokaz su naše brige za ekologiju.
+            <span className="font-extrabold">Ekološki prevoz</span>: Naša
+            hibridna i električna vozila dokaz su naše posvećenosti zaštiti
+            životne sredine.
           </li>
           <li>
             <span className=" font-extrabold">Dostupnost 24/7</span>: Bez obzira
@@ -56,9 +63,16 @@ const About = () => {
           odgovori na sve vaše potrebe – bilo da idete na posao, u šoping, na
           aerodrom ili se vraćate kući.{" "}
           <span className="text-cool-green font-bold">Cool Taxi</span> je vaša
-          najbolja opcija za udoban i siguran prevoz. Hvala što nas birate i što
-          podržavate našu misiju – zajedno čuvamo naš grad i pravimo vožnje
-          bezbednim i prijatnim za sve.
+          najbolja opcija za udoban i siguran prevoz. Naša misija je jasna –
+          pružiti najbolji taxi prevoz u Nišu uz vrhunsku uslugu, ekološku
+          odgovornost i zadovoljstvo naših putnika. Zahvaljujemo vam na
+          poverenju i što birate Cool Taxi za svoje vožnje. Vaša sigurnost i
+          udobnost su naš prioritet, a naš grad i njegovi ljudi – naša najveća
+          motivacija. Hvala što nas birate i što podržavate našu misiju –
+          zajedno čuvamo naš grad i pravimo vožnje bezbednim i prijatnim za sve.
+        </p>
+        <p className="text-gray-100 text-[18px] lg:text-[24px] indent-5 py-[15px] font-bold">
+          Cool Taxi – jer vožnja može biti sigurna, ekološka i prijatna!
         </p>
       </div>
     </div>
