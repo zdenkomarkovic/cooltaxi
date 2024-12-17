@@ -20,35 +20,35 @@ const Footer = () => {
             <div className=" flex flex-col gap-[4px] text-[20px] lg:text-[30px] ">
               <a
                 href="viber://contact?number=%2B381659719711"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[260px] lg:w-[400px]"
               >
+                <FaViber className="bg-purple-600  rounded-full w-10 h-10 p-[5px] text-white" />
+                <span className="text-white">065/97 197 11</span>
                 <Image
                   src={"/mts-logo.png"}
-                  width={80}
-                  height={50}
+                  width={60}
+                  height={30}
                   alt={"logo"}
                   className="bg-white p-2 rounded-lg"
                 />
-                <FaViber className="bg-purple-600  rounded-full w-10 h-10 p-[5px] text-white" />
-                <span className="text-white">065/97 197 11</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+38119711"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] "
               >
-                <FaPhoneAlt className="bg-white rounded-full w-10 h-10 p-[6px] text-cool-green" />
+                <FaPhoneAlt className="bg-white rounded-full w-9 h-9 p-[4px] text-cool-green" />
                 <span className="text-white">19711</span>
               </a>
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+381691971111"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px]"
               >
                 <Image
                   src={"/yettel-logo.png"}
-                  width={70}
-                  height={50}
+                  width={45}
+                  height={40}
                   alt={"logo"}
                   className="rounded-lg"
                 />
@@ -58,12 +58,12 @@ const Footer = () => {
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+381603219711"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px]"
               >
                 <Image
                   src={"/a1-logo.png"}
-                  width={70}
-                  height={40}
+                  width={37}
+                  height={37}
                   alt={"logo"}
                   className="bg-white rounded-lg"
                 />
@@ -73,7 +73,7 @@ const Footer = () => {
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="mailto:office@cooltaxi.rs"
-                className="flex gap-3 items-center py-[5px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] justify-center"
+                className="flex gap-3 items-center py-[5px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] "
               >
                 {" "}
                 <MdOutlineEmail className="w-10 h-10 p-[3px] text-white " />
@@ -81,7 +81,7 @@ const Footer = () => {
               </a>
 
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
-              <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] justify-center ">
+              <div className="flex pt-4 lg:pt-12 gap-10 lg:gap-20 text-[33px] lg:text-[40px] mx-auto ">
                 <a
                   href="https://www.instagram.com/cool_taxi_nis/"
                   target="_blank"

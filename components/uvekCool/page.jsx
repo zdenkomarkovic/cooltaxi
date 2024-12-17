@@ -18,7 +18,7 @@ const UvekCool = () => {
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Voznje van grada
           </h3>
-          <p className="text-[18px] lg:text-[20px]">
+          <p className="text-[18px] lg:text-[24px]">
             Vozimo do okolnih sela, gradova, do Beograda i dalje u inostaranstvo
           </p>
         </div>
@@ -27,7 +27,7 @@ const UvekCool = () => {
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Placanje karticom
           </h3>
-          <p className="text-[18px] lg:text-[20px]">
+          <p className="text-[18px] lg:text-[24px]">
             U nasim vozilima postoji mogucnost placanja karticom
           </p>
         </div>
@@ -36,7 +36,7 @@ const UvekCool = () => {
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Nasa flota
           </h3>
-          <p className="text-[18px] lg:text-[20px]">
+          <p className="text-[18px] lg:text-[24px]">
             Nasa flota se sastoji vecinski od hibridnih i elektricnih vozila
           </p>
         </div>
@@ -46,7 +46,7 @@ const UvekCool = () => {
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Placanje preko racuna
           </h3>
-          <p className="text-[18px] lg:text-[20px]">
+          <p className="text-[18px] lg:text-[24px]">
             Nase usluge mozete platiti i preko racuna
           </p>
         </div>
@@ -55,7 +55,7 @@ const UvekCool = () => {
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Wi Fi U vozilima
           </h3>
-          <p className="text-[18px] lg:text-[20px]">
+          <p className="text-[18px] lg:text-[24px]">
             U svim nasim vozilima imate mogucnost koriscenja Wi Fi interneta
           </p>
         </div>
@@ -64,7 +64,7 @@ const UvekCool = () => {
           <h3 className="text-[25px] lg:text-[30px] text-cool-green">
             Pet frendly
           </h3>
-          <p className="text-[18px] lg:text-[20px]">
+          <p className="text-[18px] lg:text-[24px]">
             Vasi krzneni clanovi porodice su dobrodosli
           </p>
         </div>
