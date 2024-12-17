@@ -35,7 +35,7 @@ const Footer = () => {
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+38119711"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] "
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[260px] lg:w-[400px] "
               >
                 <FaPhoneAlt className="bg-white rounded-full w-9 h-9 p-[4px] text-cool-green" />
                 <span className="text-white">19711</span>
@@ -43,7 +43,7 @@ const Footer = () => {
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+381691971111"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px]"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[260px] lg:w-[400px]"
               >
                 <Image
                   src={"/yettel-logo.png"}
@@ -58,7 +58,7 @@ const Footer = () => {
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="tel:+381603219711"
-                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[300px] lg:w-[400px]"
+                className="flex gap-3 items-center py-[5px] lg:py-[10px] mx-auto hover:scale-110 w-[260px] lg:w-[400px]"
               >
                 <Image
                   src={"/a1-logo.png"}
@@ -73,7 +73,7 @@ const Footer = () => {
               <div className=" w-[280px] lg:w-[500px] mx-auto h-[2px] bg-cool-green"></div>
               <a
                 href="mailto:office@cooltaxi.rs"
-                className="flex gap-3 items-center py-[5px] mx-auto hover:scale-110 w-[300px] lg:w-[400px] "
+                className="flex gap-3 items-center py-[5px] mx-auto hover:scale-110 w-[260px] lg:w-[400px] "
               >
                 {" "}
                 <MdOutlineEmail className="w-10 h-10 p-[3px] text-white " />
