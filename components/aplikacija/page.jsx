@@ -2,7 +2,7 @@ import React from "react";
 
 const Aplikacija = () => {
   return (
-    <div className="container mx-auto px-[8px] lg:px-[50px]">
+    <div className="container mx-auto px-[8px] lg:px-[50px] text-gray-900">
       <div className=" pb-[20px] lg:pb-[50px] px-[8px] lg:px-[50px] border-2 border-cool-green rounded-3xl my-[50px] lg:my-[100px]">
         <h2 className="text-[45px] lg:text-[80px] text-center py-[30px] lg:py-[80px] font-bold">
           <span className="text-cool-green">Cool</span> Taksi Niš aplikacija
