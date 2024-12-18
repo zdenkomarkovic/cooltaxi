@@ -53,10 +53,10 @@ const Cenovnik = () => {
                     <td className="lg:px-[30px] py-[3px] border-[1px] text-center">
                       {i + 1}
                     </td>
-                    <td className="px-[7px] lg:px-[50px] py-[3px] border-[1px]  tracking-tighter lg:tracking-normal">
+                    <td className="px-[7px] lg:pl-[50px] py-[3px] border-[1px]  tracking-tighter lg:tracking-normal">
                       Niš - {route.pravac}
                     </td>
-                    <td className=" px-[7px] lg:px-[50px] py-[3px] border-[1px]  tracking-tighter lg:tracking-normal">
+                    <td className=" pl-[7px] lg:px-[50px] py-[3px] border-[1px]  tracking-tighter lg:tracking-normal">
                       {route.cena}{" "}
                       <span className="text-[16px] lg:text-[28px]">RSD</span>
                     </td>

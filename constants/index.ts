@@ -79,8 +79,12 @@ export const priceList = [
     cena: "1.800",
   },
   {
-    pravac: "Bela Palanka",
-    cena: "3.500",
+    pravac: "Bela Palanka stari put",
+    cena: "2.600",
+  },
+  {
+    pravac: "Bela Palanka autoput",
+    cena: "2.700",
   },
   {
     pravac: "Dimitrovgrad",
@@ -92,7 +96,7 @@ export const priceList = [
   },
   {
     pravac: "Kruševac",
-    cena: "6.000",
+    cena: "4.500",
   },
   {
     pravac: "Kraljevo",
@@ -111,8 +115,28 @@ export const priceList = [
     cena: "7.500",
   },
   {
+    pravac: "Loznica",
+    cena: "22.000",
+  },
+  {
+    pravac: "Medvedja",
+    cena: "5.000",
+  },
+  {
+    pravac: "Lebane",
+    cena: "4.000",
+  },
+  {
+    pravac: "Raška",
+    cena: "10.000",
+  },
+  {
     pravac: "Paraćin",
     cena: "5.000",
+  },
+  {
+    pravac: "Surdulica",
+    cena: "6.000",
   },
   {
     pravac: "Ćuprija",
@@ -127,12 +151,65 @@ export const priceList = [
     cena: "12.000",
   },
   {
+    pravac: "Tutin",
+    cena: "15.000",
+  },
+  {
+    pravac: "Užice",
+    cena: "15.000",
+  },
+  {
+    pravac: "Velika Plana",
+    cena: "9.000",
+  },
+  {
+    pravac: "Vlasotince",
+    cena: "3.500",
+  },
+
+  {
     pravac: "Subotica",
     cena: "26.000",
   },
   {
+    pravac: "Zrenjanin",
+    cena: "20.000",
+  },
+  {
+    pravac: "Kuršumlijska Banja",
+    cena: "4.500",
+  },
+  {
+    pravac: "Jošanička Banja",
+    cena: "7.500",
+  },
+  {
+    pravac: "Banja Koviljača",
+    cena: "25.000",
+  },
+  {
+    pravac: "Sijarinska Banja",
+    cena: "6.000",
+  },
+  {
+    pravac: "Vranjska Banja",
+    cena: "7.000",
+  },
+  {
     pravac: "Šid",
     cena: "20.000",
+  },
+  {
+    pravac: "Tara",
+    cena: "20.000",
+  },
+  {
+    pravac: "Stara Planina",
+    cena: "5.000",
+  },
+  {
+    pravac: "Babin Zub",
+    cena: "5.500",
   },
   {
     pravac: "Šabac",
@@ -141,6 +218,10 @@ export const priceList = [
   {
     pravac: "Kuršumlija",
     cena: "3.500",
+  },
+  {
+    pravac: "Batočina",
+    cena: "8.000",
   },
   {
     pravac: "Merdare",
@@ -211,8 +292,20 @@ export const priceList = [
     cena: "1.700",
   },
   {
+    pravac: "Blace",
+    cena: "3.500",
+  },
+  {
+    pravac: "Bojnik",
+    cena: "2.700",
+  },
+  {
     pravac: "Svilajnac",
     cena: "9.000",
+  },
+  {
+    pravac: "Čačak",
+    cena: "11.500",
   },
   {
     pravac: "Pojate",
@@ -221,5 +314,9 @@ export const priceList = [
   {
     pravac: "Brus",
     cena: "4.500",
+  },
+  {
+    pravac: "Kikinda",
+    cena: "25.000",
   },
 ];
