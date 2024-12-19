@@ -12,13 +12,13 @@ const Cenovnik = () => {
   );
 
   return (
-    <div className="container px-[8px] lg:px-[40px]  mx-auto pt-[100px] lg:pt-[150px] pb-[50px] lg:pb-[70px]">
-      <div className=" border-2 border-cool-green rounded-3xl  mx-auto py-[20px] lg:py-[50px]">
+    <div className="container px-[5px] lg:px-[40px]  mx-auto pt-[100px] lg:pt-[150px] pb-[50px] lg:pb-[70px]">
+      <div className=" border-2 border-cool-green  rounded-3xl bg-gray-100 px-[5px] lg:px-[40]  mx-auto py-[20px] lg:py-[50px]">
         <h2 className="text-[45px] lg:text-[80px] text-center pb-[20px] lg:pb-[50px]  font-bold text-gray-900">
           Cenovnik <span className="text-cool-green">Cool</span> Taxi Niš
         </h2>
-        <div className="flex flex-col-reverse lg:flex-row justify-around">
-          <div>
+        <div className="flex flex-col-reverse lg:flex-row px-auto ">
+          <div className="mx-auto">
             <div className="text-center text-[17px] lg:text-[34px] mb-[20px] flex justify-center gap-[15px] lg:gap-[100px] items-center">
               <label className="text-nowrap">Pretrazi destinaciju</label>
               <div className="relative flex items-center w-[40%] lg:w-[40%]">
@@ -33,7 +33,7 @@ const Cenovnik = () => {
               </div>
             </div>
             <div className="text-[18px] lg:text-[34px]">
-              <table className="mx-auto border-[5px] border-gray-900">
+              <table className="mx-auto border-[2px] lg:border-[5px] border-gray-900">
                 <thead>
                   <tr className="text-center bg-gray-900 text-gray-100">
                     <td className="lg:w-[82px] py-[3px] border-[1px]"> RB. </td>
@@ -71,13 +71,13 @@ const Cenovnik = () => {
               </table>
             </div>
           </div>
-          <div className="flex flex-col gap-[10px] mx-auto lg:gap-[20px] text-[26px] lg:text-[45px] pb-[20px] lg:pb-0">
+          <div className="flex flex-col w-full lg:w-auto gap-[10px] mx-auto lg:gap-[20px] text-[26px] lg:text-[45px] pb-[20px] lg:pb-0">
             <div className="flex lg:flex-col gap-[10px] lg:gap-[20px] ">
-              <div className=" w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+              <div className=" w-[100%] border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
                 <p className=" text-cool-green">Start</p>
                 <p className="text-[15px] lg:text-[18px]">150 RSD</p>
               </div>
-              <div className="w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+              <div className="w-[100%] border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
                 <p className=" text-cool-green">Tarifa 1</p>
                 <p className="text-[15px] lg:text-[18px]">
                   60 RSD po kilometru
@@ -85,11 +85,11 @@ const Cenovnik = () => {
               </div>
             </div>
             <div className="flex lg:flex-col gap-[10px] lg:gap-[20px] text-[22px] lg:text-[45px]">
-              <div className="w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+              <div className="w-[50%] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
                 <p className=" text-cool-green">Cekanje</p>
                 <p className="text-[15px] lg:text-[18px]">700 RSD - 1h</p>
               </div>
-              <div className="w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+              <div className="w-[50%] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
                 <p className=" text-cool-green">Prtljag</p>
                 <p className="text-[15px] lg:text-[18px]">
                   0 RSD ne naplacuje se
