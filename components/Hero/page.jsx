@@ -16,7 +16,7 @@ const Hero = () => {
         }}
       ></div>
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10 "></div>
-      <div className="flex flex-col justify-between  lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] lg:pt-[130px]">
+      <div className="flex flex-col md:flex-row justify-between lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] lg:pt-[130px]">
         <div className="text-gray-100 text-nowrap mx-auto w-[230px] lg:w-[430px] lg:pt-[50px] text-[17px] lg:text-[24px] relative z-20 flex  flex-col lg:gap-1 pb-[15px]">
           <a
             href="viber://contact?number=%2B381659719711"
