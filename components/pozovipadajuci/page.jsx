@@ -1,8 +1,35 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
-const PozoviPadajuci = ({ showCallButton }) => {
+const PozoviPadajuci = () => {
+  const [showCallButton, setShowCallButton] = useState(true);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const heroSection = document.querySelector(".hero");
+    const footerSection = document.querySelector(".footer");
+    const updateVisibility = (entries) => {
+      const isHeroVisible = entries.find(
+        (entry) =>
+          entry.target.classList.contains("hero") && entry.isIntersecting
+      );
+
+      const isFooterVisible = entries.find(
+        (entry) =>
+          entry.target.classList.contains("footer") && entry.isIntersecting
+      );
+      setShowCallButton(!isHeroVisible && !isFooterVisible);
+    };
+
+    const observer = new IntersectionObserver(updateVisibility, {
+      threshold: 0.1,
+    });
+    if (heroSection) observer.observe(heroSection);
+    if (footerSection) observer.observe(footerSection);
+    return () => observer.disconnect();
+  }, [pathname]);
   return (
     <div
       className={`
