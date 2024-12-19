@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Hero />
       <ButtonToTop />
-      <PozoviPadajuci />
+      {/* <PozoviPadajuci /> */}
       <UvekCool />
       <About />
       <Aplikacija />

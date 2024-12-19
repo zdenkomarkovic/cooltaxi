@@ -15,6 +15,10 @@ export const navbarLinks = [
     route: "/#kontakt",
     label: "Kontakt",
   },
+  {
+    route: "https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/",
+    label: "Servis",
+  },
 ];
 
 export const priceList = [

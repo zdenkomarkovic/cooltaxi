@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="hero relative w-full h-screen">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -15,64 +15,98 @@ const Hero = () => {
           pointerEvents: "none",
         }}
       ></div>
-      <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
-      <div className=" lg:hidden relative z-20 flex flex-col gap-3 items-center  pb-[15px] pt-[100px]">
-        <a
-          href="tel:+381691971111"
-          className="flex items-center w-[220px] gap-2 border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
-        >
-          <FcPhoneAndroid className="w-10 h-10" />
-          <span className="text-[25px]">069/1971111</span>
-        </a>
-        <a
-          href="tel:+38119711"
-          className="flex gap-[8px] w-[220px] items-center border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
-        >
-          <FaPhoneAlt className="w-10 h-7 text-cool-green" />
-          <span className="text-[25px]">19711</span>
-        </a>
-        <a
-          href="viber://contact?number=%2B381659719711"
-          className="flex gap-3 w-[220px] items-center border-b-[1px] border-cool-green text-white  px-[12px] py-[4px] "
-        >
-          <FaViber className="bg-purple-600 rounded-full w-12 h-10 p-[3px] text-white" />
-          <span className="text-[25px]">065/9719711</span>
-        </a>
-      </div>
-      <div className=" relative z-20 text-center pt-[30px]  lg:pt-[200px]">
-        <div className="flex justify-center items-center">
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-10 "></div>
+      <div className="flex flex-col justify-between  lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] lg:pt-[130px]">
+        <div className="text-gray-100 text-nowrap mx-auto w-[230px] lg:w-[430px] lg:pt-[50px] text-[17px] lg:text-[24px] relative z-20 flex  flex-col lg:gap-1 pb-[15px]">
           <a
-            href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
-            className="relative z-20"
+            href="viber://contact?number=%2B381659719711"
+            className="flex gap-3 items-center pl-[10px] py-[5px] lg:py-[5px] hover:scale-110 "
           >
-            <img
-              src={"Google_Play.svg"}
-              className="w-[170px] h-[65px] mx-auto lg:w-[280px] lg:h-[90px]"
+            <FaViber className="bg-purple-600  rounded-full w-7 h-7 lg:w-10 lg:h-10 lg:p-[5px]" />
+            <span className="">065/97 197 11</span>
+            <Image
+              src={"/mts-logo.png"}
+              width={60}
+              height={30}
+              alt={"logo"}
+              className="bg-gray-100 p-1 lg:p-2 rounded-sm lg:rounded-lg w-[45px] lg:w-[60px]"
             />
           </a>
+          <div className=" w-full mr-auto h-[2px] bg-cool-green"></div>
           <a
-            href="https://apps.apple.com/us/app/cool-taxi-ni%C5%A1/id6478986375"
-            className="relative z-20"
+            href="tel:+38119711"
+            className="flex gap-3 items-center pl-[10px] py-[5px] lg:py-[5px] mr-auto hover:scale-110 "
           >
-            <img
-              src={"App_Store.svg"}
-              className="w-[170px] h-[60px] mx-auto lg:w-[300px] lg:h-[100px]"
-            />
+            <FaPhoneAlt className="bg-gray-100 rounded-full w-7 h-7 lg:w-9 lg:h-9 p-[3px] text-cool-green" />
+            <span className="">19711</span>
           </a>
-        </div>
-        <p className="text-white lg:text-[20px]">
-          instalirajte nasu aplikaciju klikom na dugme.
-        </p>
-        <p className="text-white lg:text-[20px]">I narucite voznju.</p>
-      </div>
+          <div className="w-full mx-auto h-[2px] bg-cool-green"></div>
+          <a
+            href="tel:+381691971111"
+            className="flex gap-3 items-center pl-[10px] py-[5px] lg:py-[5px] mr-auto hover:scale-110 "
+          >
+            <Image
+              src={"/yettel-logo.png"}
+              width={42}
+              height={37}
+              alt={"logo"}
+              className="rounded-lg w-[32px] lg:w-[42px]"
+            />
 
-      <div className="container mx-auto relative z-20">
-        <h1 className="flex flex-col pl-[50px] lg:flex-row text-outline-green lg:gap-8 w-full text-[60px] lg:text-[110px] text-left justify-end pt-[50px] lg:pt-[150px] lg:pr-[100px] leading-snug text-white">
-          <span className="text-cool-green text-outline-none font-bold ">
-            Cool
-          </span>
-          Taxi Niš
-        </h1>
+            <span className="">069/197 11 11</span>
+          </a>
+          <div className="w-full mx-auto h-[2px] bg-cool-green"></div>
+          <a
+            href="tel:+381603219711"
+            className="flex gap-3 items-center pl-[10px] py-[5px] lg:py-[5px] mr-auto hover:scale-110 "
+          >
+            <Image
+              src={"/a1-logo.png"}
+              width={37}
+              height={37}
+              alt={"logo"}
+              className="bg-gray-100 rounded-md lg:rounded-lg w-[27px] lg:w-[37px]"
+            />
+
+            <span className="">060/32 197 11</span>
+          </a>
+          <div className="w-full mx-auto h-[2px] bg-cool-green"></div>
+        </div>
+        <div>
+          <div className="pt-[25px] lg:pt-0 flex flex-col items-center text-center relative z-20 lg:ml-[350px]">
+            <div className="flex items-center">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
+                className="relative z-20"
+              >
+                <img
+                  src={"Google_Play.svg"}
+                  className="w-[170px] h-[65px] mx-auto lg:w-[280px] lg:h-[90px]"
+                />
+              </a>
+              <a
+                href="https://apps.apple.com/us/app/cool-taxi-ni%C5%A1/id6478986375"
+                className="relative z-20"
+              >
+                <img
+                  src={"App_Store.svg"}
+                  className="w-[170px] h-[60px] mx-auto lg:w-[300px] lg:h-[100px]"
+                />
+              </a>
+            </div>
+            <div className="text-gray-100 lg:text-[20px]">
+              <p className=" ">instalirajte nasu aplikaciju klikom na dugme.</p>
+              <p className="">I narucite voznju.</p>
+            </div>
+          </div>
+
+          <div className=" relative z-20 pt-[60px] lg:pt-[60px]">
+            <h1 className=" text-[55px] lg:text-[100px] text-center px-[8px] lg:px-[30px]  leading-snug text-gray-100">
+              <span className="text-cool-green font-bold ">Cool </span>
+              Taxi Niš, taxi sa tradicijom
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );
