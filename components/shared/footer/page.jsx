@@ -87,28 +87,28 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram className="p-1 bg-red-400 rounded-xl text-gray-100" />
+                  <FaInstagram className="p-1 bg-red-400 rounded-xl text-gray-100 hover:scale-125" />
                 </a>
                 <a
                   href="https://www.facebook.com/cooltaxinis"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook className="text-blue-500" />
+                  <FaFacebook className="text-blue-500  hover:scale-125" />
                 </a>
                 <a
                   href="https://www.tiktok.com/@cool.taxi.nis?lang=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaTiktok className="" />
+                  <FaTiktok className=" hover:scale-125" />
                 </a>
                 <a
                   href="https://www.google.com/maps/place/COOL+D.O.O./@43.3274182,21.9009889,17z/data=!3m1!4b1!4m6!3m5!1s0x4755b0c9362cd831:0x36b51b92ffce100!8m2!3d43.3274182!4d21.9035638!16s%2Fg%2F11h6s251pr?authuser=0&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGooglePlusG className=" text-[40px]" />
+                  <FaGooglePlusG className=" text-[40px]  hover:scale-125" />
                 </a>
               </div>
             </div>
@@ -128,10 +128,10 @@ const Footer = () => {
               href="https://manikam-dev-solutions.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-bold"
+              className="font-bold hover:text-cool-green"
             >
               {" "}
-              Manikam.Dev.Solutions
+              <span className=" "> Manikam.Dev.Solutions</span>
             </a>
           </p>
         </div>

@@ -3,9 +3,7 @@
 import { navbarLinks } from "@/constants/index";
 import Link from "@/node_modules/next/link";
 import React, { useState } from "react";
-import { FcPhoneAndroid } from "react-icons/fc";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaViber } from "react-icons/fa";
+
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
@@ -59,8 +57,14 @@ const Navbar = () => {
         <div className="flex gap-5">
           {navbarLinks.map((link, i) => {
             return (
-              <Link key={i} href={link.route}>
-                <p className="hover:text-cool-green">{link.label}</p>
+              <Link
+                key={i}
+                href={link.route}
+                target={link.target}
+                rel={link.rel}
+                className="hover:text-cool-green"
+              >
+                {link.label}
               </Link>
             );
           })}

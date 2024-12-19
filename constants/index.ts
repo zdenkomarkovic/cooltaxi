@@ -2,6 +2,8 @@ export const navbarLinks = [
   {
     route: "/",
     label: "Pocetna",
+    target: "",
+    rel: "",
   },
   // {
   //   route: "rezervacijaVoznje",
@@ -10,14 +12,20 @@ export const navbarLinks = [
   {
     route: "cenovnik",
     label: "Cenovnik",
+    target: "",
+    rel: "",
   },
   {
     route: "/#kontakt",
     label: "Kontakt",
+    target: "",
+    rel: "",
   },
   {
     route: "https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/",
     label: "Servis",
+    target: "_blank",
+    rel: "noopener noreferrer",
   },
 ];
 
