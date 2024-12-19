@@ -17,7 +17,7 @@ const Cenovnik = () => {
         <h2 className="text-[45px] lg:text-[80px] text-center pb-[20px] lg:pb-[50px]  font-bold text-gray-900">
           Cenovnik <span className="text-cool-green">Cool</span> Taxi Niš
         </h2>
-        <div className="flex justify-around">
+        <div className="flex flex-col-reverse lg:flex-row justify-around">
           <div>
             <div className="text-center text-[17px] lg:text-[34px] mb-[20px] flex justify-center gap-[15px] lg:gap-[100px] items-center">
               <label className="text-nowrap">Pretrazi destinaciju</label>
@@ -71,22 +71,30 @@ const Cenovnik = () => {
               </table>
             </div>
           </div>
-          <div className="flex flex-col gap-[20px] text-[45px]">
-            <div className="border-[1px] rounded-lg text-center border-cool-green px-[15px] py-[8px]">
-              <p className=" text-cool-green">Start</p>
-              <p className="text-[18px]">150 RSD</p>
+          <div className="flex flex-col gap-[10px] mx-auto lg:gap-[20px] text-[26px] lg:text-[45px] pb-[20px] lg:pb-0">
+            <div className="flex lg:flex-col gap-[10px] lg:gap-[20px] ">
+              <div className=" w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+                <p className=" text-cool-green">Start</p>
+                <p className="text-[15px] lg:text-[18px]">150 RSD</p>
+              </div>
+              <div className="w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+                <p className=" text-cool-green">Tarifa 1</p>
+                <p className="text-[15px] lg:text-[18px]">
+                  60 RSD po kilometru
+                </p>
+              </div>
             </div>
-            <div className="border-[1px] rounded-lg text-center border-cool-green px-[15px] py-[8px]">
-              <p className=" text-cool-green">1 Tarifa</p>
-              <p className="text-[18px]">60 RSD po kilometru</p>
-            </div>
-            <div className="border-[1px] rounded-lg text-center border-cool-green px-[15px] py-[8px]">
-              <p className=" text-cool-green">Cekanje</p>
-              <p className="text-[18px]">700 RSD - 1h</p>
-            </div>
-            <div className="border-[1px] rounded-lg text-center border-cool-green px-[15px] py-[8px]">
-              <p className=" text-cool-green">Prtljag</p>
-              <p className="text-[18px]">0 RSD ne naplacuje se</p>
+            <div className="flex lg:flex-col gap-[10px] lg:gap-[20px] text-[22px] lg:text-[45px]">
+              <div className="w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+                <p className=" text-cool-green">Cekanje</p>
+                <p className="text-[15px] lg:text-[18px]">700 RSD - 1h</p>
+              </div>
+              <div className="w-[150px] lg:w-full border-[1px] rounded-lg text-center border-cool-green lg:px-[15px] lg:py-[8px]">
+                <p className=" text-cool-green">Prtljag</p>
+                <p className="text-[15px] lg:text-[18px]">
+                  0 RSD ne naplacuje se
+                </p>
+              </div>
             </div>
           </div>
         </div>
