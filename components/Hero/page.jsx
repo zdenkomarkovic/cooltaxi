@@ -16,8 +16,8 @@ const Hero = () => {
         }}
       ></div>
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10 "></div>
-      <div className="flex flex-col md:flex-row justify-between lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] lg:pt-[130px]">
-        <div className="text-gray-100 text-nowrap mx-auto w-[230px] lg:w-[430px] lg:pt-[50px] text-[17px] lg:text-[24px] relative z-20 flex  flex-col lg:gap-1 pb-[15px]">
+      <div className="flex flex-col md:flex-row justify-between lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] md:pt-[42px] lg:pt-[130px]">
+        <div className="text-gray-100 text-nowrap mx-auto w-[230px] md:w-[300px] lg:w-[430px] md:pt-[40px] lg:pt-[120px] text-[17px] lg:text-[24px] relative z-20 flex  flex-col lg:gap-1 pb-[15px]">
           <a
             href="viber://contact?number=%2B381659719711"
             className="flex gap-3 items-center pl-[10px] py-[5px] lg:py-[5px] hover:scale-110 "
@@ -73,7 +73,7 @@ const Hero = () => {
           <div className="w-full mx-auto h-[2px] bg-cool-green"></div>
         </div>
         <div>
-          <div className="pt-[25px] lg:pt-0 flex flex-col items-center text-center relative z-20 lg:ml-[350px]">
+          <div className="pt-[25px] md:pt-0 flex flex-col items-center text-center relative z-20 lg:ml-[350px]">
             <div className="flex items-center">
               <a
                 href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
@@ -100,8 +100,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className=" relative z-20 pt-[60px] lg:pt-[60px]">
-            <h1 className=" text-[55px] lg:text-[100px] text-center px-[8px] lg:px-[30px]  leading-snug text-gray-100">
+          <div className=" relative z-20 pt-[60px] md:pt-[20px] lg:pt-[60px]">
+            <h1 className=" text-[55px] lg:text-[100px] text-center px-[8px] lg:px-[30px] md:leading-none lg:leading-snug text-gray-100">
               <span className="text-cool-green font-bold ">Cool </span>
               Taxi Niš, taxi sa tradicijom
             </h1>
