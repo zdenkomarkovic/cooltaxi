@@ -16,7 +16,7 @@ export const navbarLinks = [
     rel: "",
   },
   {
-    route: "/#kontakt",
+    route: "#kontakt",
     label: "Kontakt",
     target: "",
     rel: "",

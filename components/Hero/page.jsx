@@ -1,5 +1,4 @@
 import React from "react";
-import { FcPhoneAndroid } from "react-icons/fc";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaViber } from "react-icons/fa";
 import Image from "next/image";

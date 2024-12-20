@@ -118,7 +118,7 @@ const Footer = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full lg:h-[380px] lg:w-[750px] rounded-lg"
+                className="w-full md:w-[400px] lg:h-[380px] xl:w-[750px] rounded-lg xl"
               ></iframe>
             </div>
           </div>
