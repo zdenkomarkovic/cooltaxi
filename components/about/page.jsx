@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-gray-900">
-      <div className="container px-[10px] lg:px-[50px] mx-auto pb-[50px] lg:pb-[100px] pt-[50px]">
+      <div className="container px-[13px] lg:px-[50px] mx-auto pb-[50px] lg:pb-[100px] pt-[50px]">
         <h2 className=" text-[50px] lg:text-[100px] text-gray-100 text-center py-[30px] lg:py-[50px]">
           <span className="text-cool-green font-bold">Cool </span>Taxi Niš
         </h2>

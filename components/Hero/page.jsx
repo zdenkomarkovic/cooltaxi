@@ -101,7 +101,7 @@ const Hero = () => {
           </div>
 
           <div className=" relative z-20 pt-[60px] md:pt-[20px] lg:pt-[60px]">
-            <h1 className=" text-[55px] lg:text-[100px] text-center px-[8px] lg:px-[30px] md:leading-none lg:leading-snug text-gray-100">
+            <h1 className=" text-[55px] lg:text-[100px] text-center px-[8px] lg:px-[30px] leading-tight md:leading-none lg:leading-snug text-gray-100">
               <span className="text-cool-green font-bold ">Cool </span>
               Taxi Niš, taxi sa tradicijom
             </h1>
