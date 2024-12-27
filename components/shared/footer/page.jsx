@@ -124,15 +124,7 @@ const Footer = () => {
           </div>
           <p className="pt-8 lg:pt-14">
             © 2024 Cool Taxi Nis. Designed by{" "}
-            <a
-              href="https://manikam-dev-solutions.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-bold hover:text-cool-green"
-            >
-              {" "}
-              <span className=" "> Manikam.Dev.Solutions</span>
-            </a>
+            <span className=" "> Manikam.Dev.Solutions</span>
           </p>
         </div>
       </div>
