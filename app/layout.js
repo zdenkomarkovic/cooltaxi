@@ -35,7 +35,7 @@ export const metadata = {
     "taksi cool",
   ],
   alternates: {
-    canonical: "https://www.taksinis.rs/",
+    canonical: "https://www.taxinis.rs/",
   },
 };
 
