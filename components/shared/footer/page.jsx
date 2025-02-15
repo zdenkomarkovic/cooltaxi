@@ -14,7 +14,7 @@ const Footer = () => {
       <div id="kontakt" className="footer bg-gray-900 pb-[50px]">
         <div className=" container mx-auto text-center px-[8px] lg:px-[50px] text-gray-100">
           <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] leading-tight py-[30px] lg:py-[50px]">
-            <span className="text-cool-green font-bold">Cool </span>Taksi Niš
+            <span className="text-cool-green font-bold">Cool </span>Taxi Niš
           </h2>
           <div className=" flex flex-col lg:flex-row gap-[50px] lg:gap-0 mx-auto justify-between items-center">
             <div className=" flex flex-col gap-[4px] text-[20px] lg:text-[30px] ">
