@@ -1,6 +1,6 @@
 "use client";
 
-import { priceList } from "@/constants";
+import { priceList } from "../../../constants";
 import React, { useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 

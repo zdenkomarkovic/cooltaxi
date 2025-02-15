@@ -1,6 +1,6 @@
-import PozoviPadajuci from "@/components/pozovipadajuci/page";
-import Footer from "@/components/shared/footer/page";
-import Navbar from "@/components/shared/navbar/page";
+import PozoviPadajuci from "../../components/pozovipadajuci/page";
+import Footer from "../../components/shared/footer/page";
+import Navbar from "../../components/shared/navbar/page";
 
 import React from "react";
 

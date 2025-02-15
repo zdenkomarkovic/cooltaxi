@@ -1,12 +1,13 @@
 "use client";
 
-import { navbarLinks } from "@/constants/index";
-import Link from "@/node_modules/next/link";
+import { navbarLinks } from "../../../constants/index";
+
 import React, { useState } from "react";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [dropdownMenu, setDropdownMenu] = useState(true);
