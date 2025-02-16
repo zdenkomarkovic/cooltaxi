@@ -42,11 +42,11 @@ export default function VideoPlayer() {
   }, [isInView]);
 
   return (
-    <div className="container mb-10 md:mb-20 mx-auto space-y-12 text-center">
-      <h3 className=" text-3xl">
+    <div className="container mb-10 md:mb-20 mx-auto space-y-6 md:space-y-12 text-center">
+      <h2 className="px-2 text-2xl  md:text-3xl">
         Centrala <span className="text-cool-green  font-bold"> Cool taxi</span>{" "}
         radi 24/7 Dostupna nasim musterijama tokom celog dana i noci
-      </h3>
+      </h2>
       <video ref={videoRef} controls width="100%" loop muted>
         <source src="/api/video" type="video/mp4" />
         Vaš pretraživač ne podržava video tag.

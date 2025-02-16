@@ -13,7 +13,7 @@ const Hero = () => {
         className="object-cover"
       />
 
-      <div className="absolute inset-0 bg-black bg-opacity-30 z-10 "></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-10 "></div>
       <div className="flex flex-col md:flex-row justify-between lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] md:pt-[42px] lg:pt-[130px]">
         <div className="text-gray-100 text-nowrap mx-auto w-[230px] md:w-[300px] lg:w-[430px] md:pt-[40px] lg:pt-[120px] text-[17px] lg:text-[24px] relative z-20 flex  flex-col lg:gap-1 pb-[15px]">
           <a
@@ -77,8 +77,11 @@ const Hero = () => {
                 href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
                 className="relative z-20"
               >
-                <img
+                <Image
                   src={"Google_Play.svg"}
+                  width={170}
+                  height={65}
+                  alt="cool taxi aplikacija"
                   className="w-[170px] h-[65px] mx-auto lg:w-[280px] lg:h-[90px]"
                 />
               </a>
@@ -86,8 +89,11 @@ const Hero = () => {
                 href="https://apps.apple.com/us/app/cool-taxi-ni%C5%A1/id6478986375"
                 className="relative z-20"
               >
-                <img
+                <Image
                   src={"App_Store.svg"}
+                  width={170}
+                  height={60}
+                  alt="cool taxi aplikacija"
                   className="w-[170px] h-[60px] mx-auto lg:w-[300px] lg:h-[100px]"
                 />
               </a>

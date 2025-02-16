@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Aplikacija = () => {
@@ -29,10 +30,14 @@ const Aplikacija = () => {
             <div className=" relative z-20 text-center  pb-4">
               <a
                 href="https://play.google.com/store/apps/details?id=com.AMEGA.cnis&pcampaignid=web_share"
+                target={"_blank"}
                 className="relative z-20"
               >
-                <img
+                <Image
                   src={"Google_Play.svg"}
+                  width={250}
+                  height={80}
+                  alt="cool taxi aplikacija"
                   className="w-[250px] h-[80px] mx-auto lg:w-[300px] lg:h-[80px]"
                 />
                 <p className="lg:text-[20px] text-cool-green">
@@ -43,10 +48,14 @@ const Aplikacija = () => {
             <div className=" relative z-20 text-center pb-4 ">
               <a
                 href="https://apps.apple.com/us/app/cool-taxi-ni%C5%A1/id6478986375"
+                target={"_blank"}
                 className="relative z-20"
               >
-                <img
+                <Image
                   src={"App_Store.svg"}
+                  width={250}
+                  height={80}
+                  alt="cool taxi aplikacija"
                   className="w-[250px] h-[80px] mx-auto lg:w-[300px] lg:h-[90px]"
                 />
                 <p className="lg:text-[20px] text-cool-green">

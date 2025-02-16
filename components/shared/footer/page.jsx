@@ -11,7 +11,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div id="kontakt" className="footer bg-gray-900 pb-[50px]">
+      <div id="kontakt" className="footer bg-gray-900 pb-[25px]">
         <div className=" container mx-auto text-center px-[8px] lg:px-[50px] text-gray-100">
           <h2 className="flex flex-col lg:flex-row lg:gap-[20px] justify-center text-[50px] lg:text-[100px] leading-tight py-[30px] lg:py-[50px]">
             <span className="text-cool-green font-bold">Cool </span>Taxi Niš
@@ -122,10 +122,16 @@ const Footer = () => {
               ></iframe>
             </div>
           </div>
-          <p className="pt-8 lg:pt-14">
-            © 2024 Cool Taxi Nis. Designed by{" "}
-            <span className=" "> Manikam.Dev.Solutions</span>
-          </p>
+          <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
+            <p>&copy; 2025 Cool Taxi Niš. Sva prava zadržana.</p>
+            <a href="https://www.manikamwebsolutions.com/" target="_blank">
+              izrada sajta:{" "}
+              <span className="font-bold text-cool-green">
+                {" "}
+                ManikamWebSolutions
+              </span>
+            </a>{" "}
+          </div>
         </div>
       </div>
     </>

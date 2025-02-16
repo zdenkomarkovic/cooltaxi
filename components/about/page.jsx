@@ -9,8 +9,8 @@ const About = () => {
         </h2>
         <p className="text-gray-100 text-[18px] lg:text-[26px] indent-5 py-[15px]">
           Dobrodošli u{" "}
-          <span className="text-cool-green font-bold">Cool Taxi</span> , vodeću
-          taksi firmu u Nišu koja vas pouzdano prevozi{" "}
+          <span className="text-cool-green font-bold">Cool Taxi</span>, taxi sa
+          tradicijom, vodeću taksi firmu u Nišu koja vas pouzdano prevozi{" "}
           <span className="text-cool-green">od 28. juna 2000-te godine</span>.
           Sa više od dve decenije iskustva, izgradili smo reputaciju zasnovanu
           na profesionalizmu, tačnosti i brizi o našim putnicima. Ako tražite
@@ -31,9 +31,9 @@ const About = () => {
           računa o životnoj sredini i doprinosimo boljem kvalitetu života u
           Nišu.
         </p>
-        <h5 className="text-gray-100 font-bold text-[24px] lg:text-[38px] py-[15px]">
+        <h3 className="text-gray-100 font-bold text-[24px] lg:text-[38px] py-[15px]">
           Zašto odabrati Cool Taxi
-        </h5>
+        </h3>
         <ul className="flex flex-col gap-[15px] text-gray-100 text-[18px] lg:text-[24px] py-[15px]">
           <li>
             <span className="font-extrabold">Brza i sigurna usluga</span>: Naši
@@ -62,9 +62,9 @@ const About = () => {
           <span className="font-bold"> taxi u Nišu</span>, naša firma je tu da
           odgovori na sve vaše potrebe – bilo da idete na posao, u šoping, na
           aerodrom ili se vraćate kući.{" "}
-          <span className="text-cool-green font-bold">Cool Taxi</span> je vaša
-          najbolja opcija za udoban i siguran prevoz. Naša misija je jasna –
-          pružiti najbolji taxi prevoz u Nišu uz vrhunsku uslugu, ekološku
+          <span className="text-cool-green font-bold">Cool Taxi</span> Niš je
+          vaša najbolja opcija za udoban i siguran prevoz. Naša misija je jasna
+          – pružiti najbolji taxi prevoz u Nišu uz vrhunsku uslugu, ekološku
           odgovornost i zadovoljstvo naših putnika. Zahvaljujemo vam na
           poverenju i što birate Cool Taxi za svoje vožnje. Vaša sigurnost i
           udobnost su naš prioritet, a naš grad i njegovi ljudi – naša najveća
