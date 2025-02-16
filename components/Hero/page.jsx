@@ -12,14 +12,7 @@ const Hero = () => {
         alt="cool taxi"
         className="object-cover"
       />
-      {/* <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url(/B78A3898.jpg)",
-          zIndex: -1,
-          pointerEvents: "none",
-        }}
-      ></div> */}
+
       <div className="absolute inset-0 bg-black bg-opacity-30 z-10 "></div>
       <div className="flex flex-col md:flex-row justify-between lg:gap-20 container mx-auto px-[8px] lg:px-[40px] pt-[60px] md:pt-[42px] lg:pt-[130px]">
         <div className="text-gray-100 text-nowrap mx-auto w-[230px] md:w-[300px] lg:w-[430px] md:pt-[40px] lg:pt-[120px] text-[17px] lg:text-[24px] relative z-20 flex  flex-col lg:gap-1 pb-[15px]">
