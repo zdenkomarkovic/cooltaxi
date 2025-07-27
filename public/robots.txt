@@ -2,9 +2,10 @@
 User-agent: *
 Allow: /
 Disallow: /private/
+Disallow: /api/
 
 # Host
-Host: https://www.taksinis.rs
+Host: https://www.taxinis.rs
 
 # Sitemaps
-Sitemap: https://www.taksinis.rs/sitemap.xml
+Sitemap: https://www.taxinis.rs/sitemap.xml

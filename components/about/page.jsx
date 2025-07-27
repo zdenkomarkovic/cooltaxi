@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
         <p className="text-gray-100 text-[18px] lg:text-[24px] indent-5 py-[15px]">
           Naša flota se sastoji od vozila
           <span className="font-bold"> novije proizvodnje</span>, i to
-          iskljucivo{" "}
+          isklucivo{" "}
           <span className="font-bold"> hibridna i električna vozila</span>.
           Zahvaljujući ovim vozilima, vaša vožnja nije samo tiha i udobna, već i
           ekološki odgovorna. Smanjenjem emisije štetnih gasova aktivno
@@ -63,7 +64,15 @@ const About = () => {
           odgovori na sve vaše potrebe – bilo da idete na posao, u šoping, na
           aerodrom ili se vraćate kući.{" "}
           <span className="text-cool-green font-bold">Cool Taxi</span> Niš je
-          vaša najbolja opcija za udoban i siguran prevoz. Naša misija je jasna
+          vaša najbolja opcija za udoban i siguran prevoz. Kao pouzdan{" "}
+          <span className="font-bold">taxi prevoznik u Nišu</span>, nudimo{" "}
+          <span className="font-bold">prvi taxi</span> koji stiže na poziv, sa{" "}
+          <span className="font-bold">taxi cenama</span> koje su transparentne i
+          povoljne. Pogledajte naš{" "}
+          <Link href="/cenovnik" className="text-cool-green hover:underline font-bold">
+            detaljni cenovnik taxi vožnje
+          </Link>{" "}
+          za sve destinacije iz Niša. Naša misija je jasna
           – pružiti najbolji taxi prevoz u Nišu uz vrhunsku uslugu, ekološku
           odgovornost i zadovoljstvo naših putnika. Zahvaljujemo vam na
           poverenju i što birate Cool Taxi za svoje vožnje. Vaša sigurnost i

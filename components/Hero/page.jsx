@@ -9,8 +9,9 @@ const Hero = () => {
       <Image
         src={"/B78A3898.jpg"}
         fill
-        alt="cool taxi"
+        alt="Cool Taxi Niš - profesionalni taxi prevoz u Nišu"
         className="object-cover"
+        priority
       />
 
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10 "></div>

@@ -5,13 +5,15 @@ export const navbarLinks = [
     target: "",
     rel: "",
   },
-  // {
-  //   route: "rezervacijaVoznje",
-  //   label: "Rezervacija voznje",
-  // },
   {
-    route: "cenovnik",
+    route: "/cenovnik",
     label: "Cenovnik",
+    target: "",
+    rel: "",
+  },
+  {
+    route: "/blog",
+    label: "Blog",
     target: "",
     rel: "",
   },
