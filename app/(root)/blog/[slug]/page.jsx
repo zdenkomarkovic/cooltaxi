@@ -39,7 +39,7 @@ const blogPosts = [
     date: "2025-01-15",
     readTime: "3 min",
     category: "Saveti",
-    image: "/taxi-nis.jpg"
+    image: "/cool_logo.png"
   },
   {
     slug: "taxi-beogradski-aerodrom",
@@ -82,7 +82,7 @@ const blogPosts = [
     date: "2025-01-10",
     readTime: "5 min",
     category: "Aerodromi",
-    image: "/aerodrom-taxi.jpg"
+    image: "/cool_logo.png"
   },
   {
     slug: "najbolje-banje-srbija-taxi",
@@ -129,7 +129,7 @@ const blogPosts = [
     date: "2025-01-05",
     readTime: "4 min",
     category: "Destinacije",
-    image: "/banje-taxi.jpg"
+    image: "/cool_logo.png"
   },
   {
     slug: "ekoloski-taxi-prevoz",
@@ -177,7 +177,7 @@ const blogPosts = [
     date: "2025-01-01",
     readTime: "3 min",
     category: "Ekologija",
-    image: "/ekoloski-taxi.jpg"
+    image: "/cool_logo.png"
   }
 ];
 

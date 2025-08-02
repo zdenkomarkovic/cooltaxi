@@ -100,14 +100,13 @@ export default function RootLayout({ children }) {
       <head>
         {/* Preload kritičnih resursa */}
         <link rel="preload" href="/cool_logo.png" as="image" />
-        <link rel="preload" href="/B78A3898.jpg" as="image" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         
         {/* Google Analytics */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=G-FQKQL1F4XC"
         />
         <script
           dangerouslySetInnerHTML={{
