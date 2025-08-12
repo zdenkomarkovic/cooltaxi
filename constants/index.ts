@@ -23,12 +23,6 @@ export const navbarLinks = [
     target: "",
     rel: "",
   },
-  {
-    route: "https://www.cooltaxi.rs/prodaja-i-ugradnja-taksimetara/",
-    label: "Servis",
-    target: "_blank",
-    rel: "noopener noreferrer",
-  },
 ];
 
 export const priceList = [

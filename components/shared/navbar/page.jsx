@@ -47,7 +47,7 @@ const Navbar = () => {
       <nav className="hidden container mx-auto px-[50px] py-[8px] lg:flex gap-[500px] z-100 items-center">
         <Link href={"/"}>
           <Image
-            src={"/cool_logo.png"}
+            src={"/logo.png"}
             width={60}
             height={20}
             alt={"cool-logo"}
