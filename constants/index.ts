@@ -27,10 +27,6 @@ export const navbarLinks = [
 
 export const priceList = [
   {
-    pravac: "Kragujevac",
-    cena: "8.500",
-  },
-  {
     pravac: "Beograd",
     cena: "15.000",
   },
