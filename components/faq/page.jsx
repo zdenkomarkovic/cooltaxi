@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -9,7 +10,9 @@ const FAQ = () => {
     {
       question: "Koje su cene taxi vožnje u Nišu?",
       answer:
-        "Cene taxi vožnje u Nišu - start 150 RSD, 70 RSD po kilometru. Za detaljne cene do različitih destinacija pozovite nas telefonom.",
+        "Cene taxi vožnje u Nišu - start 150 RSD, 70 RSD po kilometru.",
+      link: "/cenovnik",
+      linkText: "Pogledajte detaljni cenovnik",
     },
     {
       question: "Da li Cool Taxi radi 24/7?",
@@ -25,6 +28,8 @@ const FAQ = () => {
       question: "Da li imate aplikaciju za naručivanje?",
       answer:
         "Da, Cool Taxi Niš ima svoju mobilnu aplikaciju dostupnu na Google Play Store i App Store. Možete je preuzeti i naručiti vožnju direktno iz aplikacije.",
+      link: "/blog",
+      linkText: "Pročitajte više o našim uslugama",
     },
     {
       question: "Da li vozite do aerodroma?",
@@ -90,7 +95,19 @@ const FAQ = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="p-6 text-gray-700">{faq.answer}</div>
+                <div className="p-6 text-gray-700">
+                  {faq.answer}
+                  {faq.link && (
+                    <div className="mt-3">
+                      <Link
+                        href={faq.link}
+                        className="text-cool-green hover:underline font-semibold"
+                      >
+                        {faq.linkText} →
+                      </Link>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           ))}

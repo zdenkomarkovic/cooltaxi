@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const PopularDestinations = () => {
   const popularDestinations = [
@@ -82,6 +83,21 @@ const PopularDestinations = () => {
                 </p>
               </div>
             ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <p className="text-lg text-gray-700 mb-6">
+              Zainteresovani ste za naše usluge? Proverite naš cenovnik ili
+              pročitajte više o našim uslugama na blogu.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/blog"
+                className="inline-block border-2 border-cool-green text-cool-green px-8 py-3 rounded-lg hover:bg-cool-green hover:text-white transition-all font-semibold"
+              >
+                Pročitajte blog
+              </Link>
+            </div>
           </div>
         </div>
       </div>

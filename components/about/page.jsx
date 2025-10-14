@@ -30,7 +30,11 @@ const About = () => {
           doprinosimo čistijem vazduhu i zdravijem okruženju u našem gradu. Kao
           firma sa dubokim lokalnim korenima, ponosni smo na to što vodimo
           računa o životnoj sredini i doprinosimo boljem kvalitetu života u
-          Nišu.
+          Nišu. Saznajte više o našim{" "}
+          <Link href="/blog" className="text-cool-green hover:underline font-bold">
+            uslugama i novostima na našem blogu
+          </Link>
+          .
         </p>
         <h3 className="text-gray-100 font-bold text-[24px] lg:text-[38px] py-[15px]">
           Zašto odabrati Cool Taxi
