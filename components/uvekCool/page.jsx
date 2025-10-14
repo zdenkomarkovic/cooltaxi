@@ -16,9 +16,9 @@ const UvekCool = () => {
         <div className="flex flex-col lg:flex-row flex-wrap gap-[25px] lg:gap-[30px] mx-auto px-auto justify-center">
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <TfiMapAlt className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-cool-green">
+            <p className="text-[25px] lg:text-[30px] text-cool-green">
               Voznje van grada
-            </h3>
+            </p>
             <p className="text-[18px] lg:text-[24px]">
               Vozimo do okolnih sela, gradova, do Beograda i dalje u
               inostaranstvo
@@ -26,18 +26,18 @@ const UvekCool = () => {
           </div>
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <CiCreditCard2 className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-cool-green">
+            <p className="text-[25px] lg:text-[30px] text-cool-green">
               Placanje karticom
-            </h3>
+            </p>
             <p className="text-[18px] lg:text-[24px]">
               U nasim vozilima postoji mogucnost placanja karticom
             </p>
           </div>
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <IoCarSportOutline className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-cool-green">
+            <p className="text-[25px] lg:text-[30px] text-cool-green">
               Nasa flota
-            </h3>
+            </p>
             <p className="text-[18px] lg:text-[24px]">
               Nasa flota se sastoji vecinski od hibridnih i elektricnih vozila
             </p>
@@ -45,27 +45,27 @@ const UvekCool = () => {
 
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <PiPiggyBankLight className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-cool-green">
+            <p className="text-[25px] lg:text-[30px] text-cool-green">
               Placanje preko racuna
-            </h3>
+            </p>
             <p className="text-[18px] lg:text-[24px]">
               Nase usluge mozete platiti i preko racuna
             </p>
           </div>
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <FaWifi className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-cool-green">
+            <p className="text-[25px] lg:text-[30px] text-cool-green">
               Wi Fi U vozilima
-            </h3>
+            </p>
             <p className="text-[18px] lg:text-[24px]">
               U svim nasim vozilima imate mogucnost koriscenja Wi Fi interneta
             </p>
           </div>
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <FaPaw className="mx-auto text-cool-green text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-cool-green">
+            <p className="text-[25px] lg:text-[30px] text-cool-green">
               Pet frendly
-            </h3>
+            </p>
             <p className="text-[18px] lg:text-[24px]">
               Vasi krzneni clanovi porodice su dobrodosli
             </p>

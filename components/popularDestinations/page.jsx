@@ -58,9 +58,9 @@ const PopularDestinations = () => {
                 className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
               >
                 <div className="text-4xl mb-4 text-center">{dest.icon}</div>
-                <h4 className="text-xl font-bold mb-3 text-center text-gray-900">
+                <p className="text-xl font-bold mb-3 text-center text-gray-900">
                   {dest.title}
-                </h4>
+                </p>
                 <p className="text-gray-600 text-center mb-4">
                   {dest.description}
                 </p>
@@ -74,9 +74,9 @@ const PopularDestinations = () => {
                 className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
               >
                 <div className="text-4xl mb-4 text-center">{dest.icon}</div>
-                <h4 className="text-xl font-bold mb-3 text-center text-gray-900">
+                <p className="text-xl font-bold mb-3 text-center text-gray-900">
                   {dest.title}
-                </h4>
+                </p>
                 <p className="text-gray-600 text-center mb-4">
                   {dest.description}
                 </p>
