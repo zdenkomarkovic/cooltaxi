@@ -147,7 +147,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
+              "@type": "TaxiService",
               name: "Cool Taxi Niš",
               description:
                 "Vodeća taksi firma u Nišu od 2000. godine. Brz, pouzdan i ekološki prevoz 24/7.",
@@ -168,18 +168,39 @@ export default function RootLayout({ children }) {
                 latitude: 43.3274182,
                 longitude: 21.9035638,
               },
+              hasMap:
+                "https://www.google.com/maps/place/Cool+Taxi+Ni%C5%A1/@43.3274182,21.9035638,17z",
               openingHours: "Mo-Su 00:00-23:59",
               priceRange: "$$",
               serviceType: "Taxi Service",
+              foundingDate: "2000",
+              founder: {
+                "@type": "Person",
+                name: "Cool Taxi Niš tim",
+              },
               areaServed: {
                 "@type": "City",
                 name: "Niš",
               },
+              serviceArea: [
+                { "@type": "Place", name: "Niš" },
+                { "@type": "Place", name: "Prokuplje" },
+                { "@type": "Place", name: "Leskovac" },
+                { "@type": "Place", name: "Aerodrom Konstantin Veliki Niš" },
+              ],
               sameAs: [
                 "https://www.facebook.com/cooltaxinis",
                 "https://www.instagram.com/cool_taxi_nis/",
                 "https://www.tiktok.com/@cool.taxi.nis",
               ],
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                reviewCount: "128",
+                bestRating: "5",
+                worstRating: "1",
+              },
+
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "Taxi Usluge",
